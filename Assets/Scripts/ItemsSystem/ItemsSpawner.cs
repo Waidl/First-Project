@@ -15,7 +15,7 @@ namespace ItemsSystem
         
         [SerializeField] public  List<ItemDataSO> itemsToSpawn = new List<ItemDataSO>();
         
-        [SerializeField] public  List<ItemView> itemDataList  = new List<ItemView>();
+        [SerializeField] public  List<ItemView> itemsDataList  = new List<ItemView>();
         [SerializeField] public  List<GameObject> allItemDataList  = new List<GameObject>();
 
         private void Start()
@@ -37,20 +37,20 @@ namespace ItemsSystem
             
             itemView.Initialize(itemDataSO);
             
-            itemDataList.Add(itemView);
+            itemsDataList.Add(itemView);
             allItemDataList.Add(gameObject);
             
         }
 
         public void CleanUp()
         {
-            foreach (var itemView in itemDataList)
+            foreach (var itemView in itemsDataList)
             {
                 if(itemView == null)return;
                 
                 Destroy(itemView.gameObject);
             }
-            itemDataList.Clear();
+            itemsDataList.Clear();
             itemsToSpawn.Clear();
         }
 

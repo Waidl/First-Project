@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ContainersSystem
 {
-    public class ContainerMovements : Singletone<ContainerMovements>
+    public class ContainerMovements : MonoBehaviour
     {
         [SerializeField] public float speed = 4f;
         public Transform movePoint;
@@ -15,6 +15,7 @@ namespace ContainersSystem
             {
                 Destroy(gameObject);
                 ContainerSpawner.Instance.containersDataList.Remove(gameObject.GetComponent<ItemView>());
+                ContainerSpawner.Instance.containerCounter++;
             }
         }
 
@@ -25,11 +26,6 @@ namespace ContainersSystem
                 movePoint.position,
                 speed *Time.deltaTime);
             transform.position = newPosition;
-        }
-
-        public override void OnAwake()
-        {
-            Instance = this;
         }
     }
 }

@@ -69,7 +69,7 @@ namespace CollectionSystem
             {
                 items[1].GetComponent<Animator>().SetTrigger("OnContainerAnimation");
                 Destroy(items[0]);
-                ItemsSpawner.Instance.itemDataList.Remove(items[0].GetComponent<ItemView>());
+                ItemsSpawner.Instance.itemsDataList.Remove(items[0].GetComponent<ItemView>());
                 items.Clear();
                 itemCounterForCollection++;
             }

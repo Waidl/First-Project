@@ -42,10 +42,11 @@ namespace ContainersSystem
         {
             foreach (var itemData in itemsData)
             {
+                while (containersDataList.Count != 0)
+                {
+                    yield return null;
+                }
                 SpawnContainers(itemData);
-                yield return new WaitForSeconds(7);
-                containerCounter++;
-
             }
         }
         public void CleanUp()
