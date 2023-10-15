@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelAvatarImage: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
   levelNumber: 1
-  maxItemsToSpawn: 3
+  maxItemsToSpawn: 6

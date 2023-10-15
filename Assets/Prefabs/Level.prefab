@@ -151,6 +151,7 @@ MonoBehaviour:
   starsPanel: {fileID: 3435716660429446034}
   levelAvatarImage: {fileID: 799671750132633642}
   levelNumber: {fileID: 7254330803786508034}
+  maxItemsToSpawn: 0
   starsCount: 0
 --- !u!1 &1870551403756949727
 GameObject:
