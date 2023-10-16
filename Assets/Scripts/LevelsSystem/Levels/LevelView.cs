@@ -1,7 +1,9 @@
 ﻿using System;
+using AudioManager;
+using Common;
 using ContainersSystem;
-using Items;
 using ItemsSystem;
+using ItemsSystem.Items;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,8 +16,10 @@ namespace LevelsSystem.Levels
         [SerializeField] private GameObject starsPanel;
         [SerializeField] private Image levelAvatarImage;
         [SerializeField] private TextMeshProUGUI levelNumber;
-        [SerializeField] public  int maxItemsToSpawn;
+        [SerializeField] private int maxItemsToSpawn;
         [SerializeField] private int starsCount;
+        [SerializeField] private Sound soundOnLevel;
+        [SerializeField] private int numberOfStarsToUnlockLevel;
 
         private GameObject levelsWindow;
         private GameObject gameplayWindow;
@@ -25,8 +29,8 @@ namespace LevelsSystem.Levels
         public Image LevelAvatarImage => levelAvatarImage;
         public TextMeshProUGUI LevelNumber => levelNumber;
         public int MaxItemsToSpawn => maxItemsToSpawn;
-        public int StarsCount => starsCount;
-        public GameObject StarsPanel => starsPanel;
+        public int StarsCount { get; set; }
+        public int NumberOfStarsToUnlockLevel => numberOfStarsToUnlockLevel;
 
         private void Start()
         {
@@ -39,20 +43,22 @@ namespace LevelsSystem.Levels
             levelAvatarImage.sprite = levelDataSO.LevelAvatarImage;
             levelNumber.text = levelDataSO.LevelNumber;
             maxItemsToSpawn = levelDataSO.MaxItemsToSpawn;
-
+            soundOnLevel.name = levelDataSO.SoundOnLevel;
+            numberOfStarsToUnlockLevel = levelDataSO.NumberOfStarsToUnlockLevel;
         }
 
         public void OnButtonClick()
         {
             levelsWindow.SetActive(false);
             gameplayWindow.SetActive(true);
-            FindObjectOfType<AudioManager.AudioManager>().Play("Click");
+            AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
             OnStartLevel();
             
         }
         
         public void OnStartLevel()
         {
+            AudioManager.AudioManager.Instance.Play(soundOnLevel.name);
             LevelScoreManager.CurrentLevelStarsPanel = starsPanel;
             MixingList();
             

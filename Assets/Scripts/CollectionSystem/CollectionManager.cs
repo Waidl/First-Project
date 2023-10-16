@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
+using Common;
 using ContainersSystem;
-using Items;
 using ItemsSystem;
+using ItemsSystem.Items;
 using LevelsSystem;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -45,7 +46,7 @@ namespace CollectionSystem
             {
                 if (items[0].GetComponent<ItemView>().ItemName == items[1].GetComponent<ItemView>().ItemName)
                 {
-                    Collectioner();
+                    Сollecting();
                 }
                 else
                 {
@@ -54,7 +55,7 @@ namespace CollectionSystem
             }
         }
     
-        private void Collectioner()
+        private void Сollecting()
         {
             items[0].GetComponent<ItemsMovements>().enabled = false;
         
@@ -67,10 +68,16 @@ namespace CollectionSystem
 
             if (items[0].transform.position == items[1].transform.position)
             {
+                AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
+                
                 items[1].GetComponent<Animator>().SetTrigger("OnContainerAnimation");
+                
                 Destroy(items[0]);
+                
                 ItemsSpawner.Instance.itemsDataList.Remove(items[0].GetComponent<ItemView>());
+                
                 items.Clear();
+                
                 itemCounterForCollection++;
             }
         }

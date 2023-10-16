@@ -1,4 +1,4 @@
-using Items;
+using ItemsSystem.Items;
 using UnityEngine;
 
 namespace ContainersSystem

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Items
+namespace ItemsSystem.Items
 {
     public class ItemView : MonoBehaviour
     {

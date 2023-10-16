@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelAvatarImage: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
   levelNumber: 3
-  starsCount: 0
   maxItemsToSpawn: 3
+  soundOnLevel: GameplaySoundThree
+  numberOfStarsToUnlockLevel: 3

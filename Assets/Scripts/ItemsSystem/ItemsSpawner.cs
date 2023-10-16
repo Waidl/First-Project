@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Items;
+using ItemsSystem.Items;
 using LevelsSystem;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -12,6 +12,7 @@ namespace ItemsSystem
     public class ItemsSpawner : Singletone<ItemsSpawner>
     {
         [SerializeField] public ItemView itemViewPrefab;
+        
         [SerializeField] private Transform[] spawnPoints;
         
         [SerializeField] public  List<ItemDataSO> itemsToSpawn = new List<ItemDataSO>();

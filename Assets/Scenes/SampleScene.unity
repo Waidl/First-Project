@@ -879,7 +879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Click
+  - name: ButtonSound
     clip: {fileID: 8300000, guid: 88d7788a47a157a41996a9a8bf8b43a2, type: 3}
     volume: 1
     pitch: 1
@@ -889,20 +889,20 @@ MonoBehaviour:
     volume: 0.44
     pitch: 1
     source: {fileID: 0}
-  - name: GameplaySoundOne.
+  - name: GameplaySoundOne
     clip: {fileID: 8300000, guid: eae519caf5d74df48be01fff329eaf05, type: 3}
     volume: 0.5
-    pitch: 0
+    pitch: 1
     source: {fileID: 0}
   - name: GameplaySoundTwo
     clip: {fileID: 8300000, guid: 2473e2c8c6282d047a732fd025d92926, type: 3}
-    volume: 0.5
-    pitch: 0
+    volume: 0.47
+    pitch: 1
     source: {fileID: 0}
   - name: GameplaySoundThree
     clip: {fileID: 8300000, guid: 00fdd257f6bcfb84388e03ae2583787e, type: 3}
-    volume: 0.5
-    pitch: 0
+    volume: 0.43
+    pitch: 1
     source: {fileID: 0}
   - name: EndLevelSound
     clip: {fileID: 8300000, guid: 609f2c184c2697b4da9b4b990f5716f6, type: 3}
@@ -2354,6 +2354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 751293133}
+  - component: {fileID: 751293134}
   m_Layer: 5
   m_Name: MenuWindow
   m_TagString: Untagged
@@ -2384,6 +2385,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &751293134
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751293132}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1664a0497516550469da4cf9448c8eab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &772685971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3450,6 +3472,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Click
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 751293134}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MenuWindow
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1366898397

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Items;
+using Common;
+using ItemsSystem.Items;
 using LevelsSystem.Levels;
 using UnityEngine;
 
@@ -26,7 +27,6 @@ namespace LevelsSystem
 
         public GameObject GameplayWindow => gameplayWindow;
 
-
         public override void OnAwake()
         {
             Instance = this;
@@ -34,12 +34,11 @@ namespace LevelsSystem
 
         private void Start()
         {
-            FindObjectOfType<AudioManager.AudioManager>().Play("MenuSound");
+            //AudioManager.AudioManager.Instance.Play(GameConfig.MenuSound);
         }
         public void StartGame()
         {
-            FindObjectOfType<AudioManager.AudioManager>().Play("MenuSound");
-            
+
             levelDataList[LevelScoreManager.Instance.level-1].OnStartLevel();
         }
 
