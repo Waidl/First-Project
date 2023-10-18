@@ -37,6 +37,7 @@
             <e p="ItemCollect.cs" t="Include" />
           </e>
           <e p="Common" t="Include">
+            <e p="AllStarsOfGame.cs" t="Include" />
             <e p="ExitGame.cs" t="Include" />
             <e p="GameConfig.cs" t="Include" />
             <e p="PauseManager.cs" t="Include" />
@@ -54,6 +55,7 @@
             <e p="ItemsSpawner.cs" t="Include" />
           </e>
           <e p="LevelsSystem" t="Include">
+            <e p="CounterStarsOnLevels.cs" t="Include" />
             <e p="Levels" t="Include">
               <e p="LevelDataSO.cs" t="Include" />
               <e p="LevelView.cs" t="Include" />
@@ -61,6 +63,7 @@
             <e p="LevelScoreManager.cs" t="Include" />
             <e p="LevelsManager.cs" t="Include" />
             <e p="LevelSpawner.cs" t="Include" />
+            <e p="LevelUnlocking.cs" t="Include" />
           </e>
           <e p="Singletone.cs" t="Include" />
         </e>

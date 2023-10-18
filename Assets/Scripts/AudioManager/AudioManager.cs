@@ -22,6 +22,11 @@ namespace AudioManager
             Initialize();
         }
 
+        private void Start()
+        {
+            //AudioManager.AudioManager.Instance.Play(GameConfig.MenuSound);
+        }
+
         private void Initialize()
         {
             foreach (var s in sounds)

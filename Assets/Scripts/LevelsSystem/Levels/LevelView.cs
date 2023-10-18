@@ -13,7 +13,7 @@ namespace LevelsSystem.Levels
 {
     public class LevelView : MonoBehaviour
     {
-        [SerializeField] private GameObject starsPanel;
+        [SerializeField] private GameObject[] starsOnLevel;
         [SerializeField] private Image levelAvatarImage;
         [SerializeField] private TextMeshProUGUI levelNumber;
         [SerializeField] private int maxItemsToSpawn;
@@ -26,11 +26,24 @@ namespace LevelsSystem.Levels
         
         
         public LevelDataSO LevelDataSO { get; private set; }
+        public int StarsCount
+        {
+            get => starsCount;
+            set => starsCount = value;
+        }
+
         public Image LevelAvatarImage => levelAvatarImage;
-        public TextMeshProUGUI LevelNumber => levelNumber;
+        public TextMeshProUGUI LevelNumber
+        {
+            get => levelNumber;
+            set => levelNumber = value;
+        }
+
         public int MaxItemsToSpawn => maxItemsToSpawn;
-        public int StarsCount { get; set; }
         public int NumberOfStarsToUnlockLevel => numberOfStarsToUnlockLevel;
+        public Sound SoundOnLevel => soundOnLevel;
+
+        public GameObject[] StarsOnLevel => starsOnLevel;
 
         private void Start()
         {
@@ -53,13 +66,12 @@ namespace LevelsSystem.Levels
             gameplayWindow.SetActive(true);
             AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
             OnStartLevel();
-            
         }
         
         public void OnStartLevel()
         {
             AudioManager.AudioManager.Instance.Play(soundOnLevel.name);
-            LevelScoreManager.CurrentLevelStarsPanel = starsPanel;
+            CounterStarsOnLevels.Instance.currentLevelStars = CounterStarsOnLevels.Instance.starsOnLevel;
             MixingList();
             
             for (int i = 0; i < MaxItemsToSpawn ; i++)

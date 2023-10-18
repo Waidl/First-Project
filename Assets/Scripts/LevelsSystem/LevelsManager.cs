@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using Common;
+using ContainersSystem;
+using ItemsSystem;
 using ItemsSystem.Items;
 using LevelsSystem.Levels;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace LevelsSystem
 {
@@ -12,19 +15,16 @@ namespace LevelsSystem
         [SerializeField] private List<ItemDataSO> allItemsDataSOForGame = new List<ItemDataSO>();
         public List<ItemDataSO> AllItemsDataSOForGame => allItemsDataSOForGame;
         
-        [SerializeField] private List<LevelView> levelDataList  = new List<LevelView>();
+        [SerializeField] public List<LevelView> levelDataList  = new List<LevelView>();
         public List<LevelView> LevelDataList => levelDataList;
         
         private List<GameObject> allLevelDataList  = new List<GameObject>();
         public List<GameObject> AllLevelDataList => allLevelDataList;
-
-
+        
         [SerializeField] private GameObject levelsWindow;
-
         public GameObject LevelsWindow => levelsWindow;
-
+        
         [SerializeField] private GameObject gameplayWindow;
-
         public GameObject GameplayWindow => gameplayWindow;
 
         public override void OnAwake()
@@ -32,16 +32,24 @@ namespace LevelsSystem
             Instance = this;
         }
 
-        private void Start()
+        private void Update()
         {
-            //AudioManager.AudioManager.Instance.Play(GameConfig.MenuSound);
+            CompletingLevel();
         }
+
         public void StartGame()
         {
-
-            levelDataList[LevelScoreManager.Instance.level-1].OnStartLevel();
+             levelDataList[LevelUnlocking.Instance.level-1].OnStartLevel();
         }
 
-        
+        public void CompletingLevel()
+        {
+            if (ContainerSpawner.Instance.containersToSpawn.Count == 
+                ContainerSpawner.Instance.containerCounter &&
+                ContainerSpawner.Instance.containersToSpawn.Count != 0)
+            { 
+                LevelScoreManager.Instance.OnCompletingTheLevel();
+            }
+        }
     }
 }

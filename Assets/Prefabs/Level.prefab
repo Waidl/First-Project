@@ -148,11 +148,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7ff2184c374213b650dde4ca6d9467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starsPanel: {fileID: 3435716660429446034}
+  starsOnLevel:
+  - {fileID: 4827726270390555209}
+  - {fileID: 7827158479365547907}
+  - {fileID: 5235379739345608298}
+  - {fileID: 7682030248744966366}
+  - {fileID: 6081458904835889906}
   levelAvatarImage: {fileID: 799671750132633642}
   levelNumber: {fileID: 7254330803786508034}
   maxItemsToSpawn: 0
   starsCount: 0
+  soundOnLevel:
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  numberOfStarsToUnlockLevel: 0
 --- !u!1 &1870551403756949727
 GameObject:
   m_ObjectHideFlags: 0

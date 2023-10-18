@@ -16,4 +16,4 @@ MonoBehaviour:
   levelNumber: 3
   maxItemsToSpawn: 3
   soundOnLevel: GameplaySoundThree
-  numberOfStarsToUnlockLevel: 3
+  numberOfStarsToUnlockLevel: 8
