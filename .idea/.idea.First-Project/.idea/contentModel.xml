@@ -43,7 +43,8 @@
             <e p="PauseManager.cs" t="Include" />
           </e>
           <e p="ContainersSystem" t="Include">
-            <e p="ContainerMovements.cs" t="Include" />
+            <e p="ContainerMoveToEndPoint.cs" t="Include" />
+            <e p="ContainerMoveToWaitPoint.cs" t="Include" />
             <e p="ContainerSpawner.cs" t="Include" />
           </e>
           <e p="ItemsSystem" t="Include">
@@ -64,6 +65,7 @@
             <e p="LevelsManager.cs" t="Include" />
             <e p="LevelSpawner.cs" t="Include" />
             <e p="LevelUnlocking.cs" t="Include" />
+            <e p="TimerInLevel.cs" t="Include" />
           </e>
           <e p="Singletone.cs" t="Include" />
         </e>

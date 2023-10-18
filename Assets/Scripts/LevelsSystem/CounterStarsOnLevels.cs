@@ -17,7 +17,7 @@ namespace LevelsSystem
         [SerializeField] private Sprite fullstar;
 
         private LevelView currentLevel;
-        private int currentStarsCount;
+        public int currentStarsCount;
         private int allLevelCount;
         private float collectedItems;
         private float allItems;
@@ -33,8 +33,9 @@ namespace LevelsSystem
         {
             //сделать Текущий уровень 
             // настроить звёзды каждого уровня в списке уровней,чтобы они давались 1
+            
             currentLevel = 
-                LevelUnlocking.Instance.closedLevels[LevelUnlocking.Instance.level - 1].GetComponent<LevelView>();
+                LevelUnlocking.Instance.levels[LevelUnlocking.Instance.level - 1].GetComponent<LevelView>();
             
             collectedItems = CollectionManager.Instance.itemCounterForCollection;
             allItems = ItemsSpawner.Instance.itemsToSpawn.Count;
@@ -75,6 +76,7 @@ namespace LevelsSystem
                 {
                     currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
                 }
+                
                 CollectionManager.Instance.itemCounterForCollection = 0;
             }
         
@@ -91,6 +93,7 @@ namespace LevelsSystem
                 {
                     currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
                 }
+                
                 CollectionManager.Instance.itemCounterForCollection = 0;
             }
         
@@ -107,6 +110,7 @@ namespace LevelsSystem
                 {
                     currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
                 }
+                
                 CollectionManager.Instance.itemCounterForCollection = 0;
             }
         
@@ -123,6 +127,7 @@ namespace LevelsSystem
                 {
                     currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
                 }
+                
                 CollectionManager.Instance.itemCounterForCollection = 0;
             }
         }

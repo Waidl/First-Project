@@ -42,7 +42,7 @@ namespace CollectionSystem
                 //Debug.Log("2  итема");
             }
 
-            if (items.Count == 2 && items[1].GetComponent<ContainerMovements>() != null)
+            if (items.Count == 2 && items[1].GetComponent<ContainerMoveToWaitPoint>() != null)
             {
                 if (items[0].GetComponent<ItemView>().ItemName == items[1].GetComponent<ItemView>().ItemName)
                 {
@@ -71,6 +71,9 @@ namespace CollectionSystem
                 AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
                 
                 items[1].GetComponent<Animator>().SetTrigger("OnContainerAnimation");
+                
+                items[1].GetComponent<ContainerMoveToWaitPoint>().enabled = false;
+                items[1].GetComponent<ContainerMoveToEndPoint>().enabled = true;
                 
                 Destroy(items[0]);
                 

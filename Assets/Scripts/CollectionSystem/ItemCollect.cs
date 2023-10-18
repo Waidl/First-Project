@@ -11,7 +11,7 @@ namespace CollectionSystem
         public void OnMouseDown()
         {
             if (CollectionManager.Instance.Items.Count == 0
-                && gameObject.GetComponent<ContainerMovements>() != null
+                && gameObject.GetComponent<ContainerMoveToWaitPoint>() != null
             ) return;
 
             if (gameObject.GetComponent<ItemsMovements>() != null)

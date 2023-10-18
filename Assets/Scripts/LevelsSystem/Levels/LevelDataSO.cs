@@ -11,11 +11,14 @@ namespace LevelsSystem.Levels
         [SerializeField] private int maxItemsToSpawn;
         [SerializeField] private string soundOnLevel;
         [SerializeField] private int numberOfStarsToUnlockLevel;
+        [SerializeField] private float timeOnLevel;
         
         public Sprite LevelAvatarImage => levelAvatarImage;
         public string LevelNumber => levelNumber;
         
         public int MaxItemsToSpawn => maxItemsToSpawn;
+
+        public float TimeOnLevel => timeOnLevel;
 
         public string SoundOnLevel => soundOnLevel;
         public int NumberOfStarsToUnlockLevel => numberOfStarsToUnlockLevel;

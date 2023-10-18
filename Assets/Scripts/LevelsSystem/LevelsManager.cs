@@ -31,25 +31,10 @@ namespace LevelsSystem
         {
             Instance = this;
         }
-
-        private void Update()
-        {
-            CompletingLevel();
-        }
-
+        
         public void StartGame()
         {
              levelDataList[LevelUnlocking.Instance.level-1].OnStartLevel();
-        }
-
-        public void CompletingLevel()
-        {
-            if (ContainerSpawner.Instance.containersToSpawn.Count == 
-                ContainerSpawner.Instance.containerCounter &&
-                ContainerSpawner.Instance.containersToSpawn.Count != 0)
-            { 
-                LevelScoreManager.Instance.OnCompletingTheLevel();
-            }
         }
     }
 }

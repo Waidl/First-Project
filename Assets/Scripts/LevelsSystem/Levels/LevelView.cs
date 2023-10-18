@@ -33,16 +33,8 @@ namespace LevelsSystem.Levels
         }
 
         public Image LevelAvatarImage => levelAvatarImage;
-        public TextMeshProUGUI LevelNumber
-        {
-            get => levelNumber;
-            set => levelNumber = value;
-        }
-
         public int MaxItemsToSpawn => maxItemsToSpawn;
         public int NumberOfStarsToUnlockLevel => numberOfStarsToUnlockLevel;
-        public Sound SoundOnLevel => soundOnLevel;
-
         public GameObject[] StarsOnLevel => starsOnLevel;
 
         private void Start()
@@ -79,7 +71,6 @@ namespace LevelsSystem.Levels
                 ItemsSpawner.Instance.itemsToSpawn.Add(LevelsManager.Instance.AllItemsDataSOForGame[i]);
                 ContainerSpawner.Instance.containersToSpawn.Add(LevelsManager.Instance.AllItemsDataSOForGame[i]);
             }
-            
             
             ItemsSpawner.Instance.Initialize(ItemsSpawner.Instance.itemsToSpawn);
             ContainerSpawner.Instance.StartSpawnContainers();

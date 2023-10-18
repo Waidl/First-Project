@@ -30,7 +30,7 @@ namespace Common
         
             for (int i = 0; i < allContainers.Count; i++)
             {
-                allContainers[i].GetComponent<ContainerMovements>().enabled = false;
+                allContainers[i].GetComponent<ContainerMoveToWaitPoint>().enabled = false;
                 allContainers[i].gameObject.SetActive(false);
             }
         
@@ -46,7 +46,7 @@ namespace Common
         
             for (int i = 0; i < allContainers.Count; i++)
             {
-                allContainers[i].GetComponent<ContainerMovements>().enabled = true;
+                allContainers[i].GetComponent<ContainerMoveToWaitPoint>().enabled = true;
                 allContainers[i].gameObject.SetActive(true);
             }
         }

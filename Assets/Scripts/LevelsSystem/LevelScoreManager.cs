@@ -1,10 +1,7 @@
 ﻿using CollectionSystem;
-using Common;
 using ContainersSystem;
 using ItemsSystem;
-using LevelsSystem.Levels;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace LevelsSystem
 {
@@ -27,7 +24,6 @@ namespace LevelsSystem
             levelCompletedWindow.SetActive(true);
 
             CounterStarsOnLevels.Instance.StarsCounter();
-                
         }
         public override void OnAwake()
         {

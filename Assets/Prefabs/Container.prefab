@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 485032836373644002}
   - component: {fileID: 7832465629989164498}
   - component: {fileID: 5845277282017978003}
+  - component: {fileID: -8949130185039269861}
   m_Layer: 0
   m_Name: Container
   m_TagString: Untagged
@@ -207,7 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  movePoint: {fileID: 2450898062645007647, guid: 79a8fae4bec422347bda732eb51036b9, type: 3}
+  moveToWaitPoint: {fileID: 6370668845709006539, guid: e6ec311fc65d8594ab7ef53fc033c812, type: 3}
 --- !u!95 &5845277282017978003
 Animator:
   serializedVersion: 5
@@ -229,6 +230,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8949130185039269861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778232276217109580}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7747bae2d35448218fe0703e93eb93cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  moveToEndPoint: {fileID: 107118122981438504, guid: d5176c8f8f9ba7f498cf7fdab946ff46, type: 3}
 --- !u!1 &8409251817527716190
 GameObject:
   m_ObjectHideFlags: 0

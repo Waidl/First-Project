@@ -1,21 +1,23 @@
-using ItemsSystem.Items;
+﻿using ItemsSystem.Items;
 using UnityEngine;
 
 namespace ContainersSystem
 {
-    public class ContainerMovements : MonoBehaviour
+    public class ContainerMoveToEndPoint : MonoBehaviour
     {
         [SerializeField] public float speed = 4f;
-        public Transform movePoint;
+        public Transform moveToEndPoint;
 
         private void Update()
         {
             Move();
-            if (transform.position ==movePoint.position)
+            if (transform.position == moveToEndPoint.position)
             {
                 Destroy(gameObject);
                 ContainerSpawner.Instance.containersDataList.Remove(gameObject.GetComponent<ItemView>());
                 ContainerSpawner.Instance.containerCounter++;
+                gameObject.GetComponent<ContainerMoveToWaitPoint>().enabled = false;
+                gameObject.GetComponent<ContainerMoveToEndPoint>().enabled = true;
             }
         }
 
@@ -23,7 +25,7 @@ namespace ContainersSystem
         {
             Vector2 newPosition = Vector2.MoveTowards(
                 transform.position,
-                movePoint.position,
+                moveToEndPoint.position,
                 speed *Time.deltaTime);
             transform.position = newPosition;
         }
