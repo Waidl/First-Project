@@ -2,6 +2,7 @@
 using ContainersSystem;
 using ItemsSystem;
 using ItemsSystem.Items;
+using LevelsSystem;
 using UnityEngine;
 
 namespace Common
@@ -33,6 +34,7 @@ namespace Common
                 allContainers[i].GetComponent<ContainerMoveToWaitPoint>().enabled = false;
                 allContainers[i].gameObject.SetActive(false);
             }
+            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = false;
         
         }
 
@@ -49,6 +51,7 @@ namespace Common
                 allContainers[i].GetComponent<ContainerMoveToWaitPoint>().enabled = true;
                 allContainers[i].gameObject.SetActive(true);
             }
+            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = true;
         }
         
     }

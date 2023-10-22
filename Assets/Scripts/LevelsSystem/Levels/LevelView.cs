@@ -15,28 +15,32 @@ namespace LevelsSystem.Levels
     {
         [SerializeField] private GameObject[] starsOnLevel;
         [SerializeField] private Image levelAvatarImage;
-        [SerializeField] private TextMeshProUGUI levelNumber;
+        [SerializeField] private TextMeshProUGUI levelNumberText;
         [SerializeField] private int maxItemsToSpawn;
         [SerializeField] private int starsCount;
         [SerializeField] private Sound soundOnLevel;
+        [SerializeField] private float timeOnLevel;
         [SerializeField] private int numberOfStarsToUnlockLevel;
+        [SerializeField] private int levelNumber;
 
         private GameObject levelsWindow;
         private GameObject gameplayWindow;
         
-        
         public LevelDataSO LevelDataSO { get; private set; }
+        public Image LevelAvatarImage => levelAvatarImage;
+        public int MaxItemsToSpawn => maxItemsToSpawn;
+        public GameObject[] StarsOnLevel => starsOnLevel;
+        public float TimeOnLevel => timeOnLevel;
+
         public int StarsCount
         {
             get => starsCount;
             set => starsCount = value;
         }
 
-        public Image LevelAvatarImage => levelAvatarImage;
-        public int MaxItemsToSpawn => maxItemsToSpawn;
         public int NumberOfStarsToUnlockLevel => numberOfStarsToUnlockLevel;
-        public GameObject[] StarsOnLevel => starsOnLevel;
-
+        public int LevelNumber => levelNumber;
+        
         private void Start()
         {
             levelsWindow = LevelsManager.Instance.LevelsWindow;
@@ -46,24 +50,33 @@ namespace LevelsSystem.Levels
         public void Initialize(LevelDataSO levelDataSO)
         {
             levelAvatarImage.sprite = levelDataSO.LevelAvatarImage;
-            levelNumber.text = levelDataSO.LevelNumber;
+            levelNumberText.text = levelDataSO.LevelNumber.ToString();
             maxItemsToSpawn = levelDataSO.MaxItemsToSpawn;
             soundOnLevel.name = levelDataSO.SoundOnLevel;
+            timeOnLevel = levelDataSO.TimeOnLevel;
             numberOfStarsToUnlockLevel = levelDataSO.NumberOfStarsToUnlockLevel;
+            levelNumber = levelDataSO.LevelNumber;
         }
-
+        
         public void OnButtonClick()
         {
             levelsWindow.SetActive(false);
             gameplayWindow.SetActive(true);
             AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
+            
             OnStartLevel();
+            LevelsManager.Instance.currentLevelView = gameObject.GetComponent<LevelView>();
         }
         
         public void OnStartLevel()
         {
+            LevelsManager.Instance.completedLevels.Add(gameObject.GetComponent<LevelView>());
+
+            TimerInLevel.Instance.currentSeconds = TimeOnLevel;
+            TimerInLevel.Instance.timerActivation = true;
+            
             AudioManager.AudioManager.Instance.Play(soundOnLevel.name);
-            CounterStarsOnLevels.Instance.currentLevelStars = CounterStarsOnLevels.Instance.starsOnLevel;
+
             MixingList();
             
             for (int i = 0; i < MaxItemsToSpawn ; i++)

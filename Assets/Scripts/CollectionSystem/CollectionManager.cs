@@ -1,35 +1,32 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Common;
 using ContainersSystem;
 using ItemsSystem;
 using ItemsSystem.Items;
-using LevelsSystem;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace CollectionSystem
 {
     public class CollectionManager : Singletone<CollectionManager>
     {
-        
         [Header("CollectionProperties")]
-        [SerializeField] private List<GameObject> items = new List<GameObject>(); 
+        [SerializeField] private List<GameObject> items;
+        [SerializeField] public List<GameObject> filtrededItems; 
         public List<GameObject> Items => items;
 
-        [SerializeField] private float moveSpeed = 10f;
+        [SerializeField] public float moveSpeed = 1f;
         [SerializeField] public int itemCounterForCollection;
-        
-
 
         public override void OnAwake()
         {
             Instance = this;
         }
-        
+
         private void Update()
         {
-            if (items.Count < 2 ) return;
-            
+            if (items.Count < 2) return;
+
             if (items.Count > 2)
             {
                 items.Clear();

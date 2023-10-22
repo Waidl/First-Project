@@ -6,21 +6,20 @@ namespace CollectionSystem
 {
     public class ItemCollect : MonoBehaviour
     {
-        [SerializeField] private Animator animator;
-        
         public void OnMouseDown()
         {
-            if (CollectionManager.Instance.Items.Count == 0
-                && gameObject.GetComponent<ContainerMoveToWaitPoint>() != null
-            ) return;
-
-            if (gameObject.GetComponent<ItemsMovements>() != null)
+            if (gameObject.GetComponent<ItemsMovements>() != null &&
+                CollectionManager.Instance.Items.Count == 0)
             {
+                CollectionManager.Instance.Items.Add(gameObject);
                 gameObject.GetComponent<Animator>().SetTrigger("OnClickAnimation");
             }
-            
-            CollectionManager.Instance.Items.Add(gameObject);
-        }
 
+            if (gameObject.GetComponent<ContainerMoveToWaitPoint>() != null &&
+                CollectionManager.Instance.Items.Count == 1)
+            {
+                CollectionManager.Instance.Items.Add(gameObject);
+            }
+        }
     }
 }

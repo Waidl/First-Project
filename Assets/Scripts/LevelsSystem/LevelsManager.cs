@@ -12,6 +12,7 @@ namespace LevelsSystem
 {
     public class LevelsManager : Singletone<LevelsManager>
     {
+        [Header("DataProperties")]
         [SerializeField] private List<ItemDataSO> allItemsDataSOForGame = new List<ItemDataSO>();
         public List<ItemDataSO> AllItemsDataSOForGame => allItemsDataSOForGame;
         
@@ -21,11 +22,20 @@ namespace LevelsSystem
         private List<GameObject> allLevelDataList  = new List<GameObject>();
         public List<GameObject> AllLevelDataList => allLevelDataList;
         
+        [Header("GameWindow")]
         [SerializeField] private GameObject levelsWindow;
         public GameObject LevelsWindow => levelsWindow;
         
         [SerializeField] private GameObject gameplayWindow;
         public GameObject GameplayWindow => gameplayWindow;
+        
+        [SerializeField] private GameObject levelManager;
+        public GameObject LevelManager=>levelManager;
+        
+        [Header("LevelsProperties")]
+        [SerializeField] public List<LevelView> completedLevels;
+        
+        public LevelView currentLevelView;
 
         public override void OnAwake()
         {
@@ -34,7 +44,13 @@ namespace LevelsSystem
         
         public void StartGame()
         {
-             levelDataList[LevelUnlocking.Instance.level-1].OnStartLevel();
+            currentLevelView.OnStartLevel();
+        }
+
+        private void Update()
+        {
+            currentLevelView = levelDataList[LevelCompletingManager.Instance.levelCounter-1];
+            
         }
     }
 }

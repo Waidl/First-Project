@@ -10,19 +10,19 @@ namespace LevelsSystem
     public class CounterStarsOnLevels : Singletone<CounterStarsOnLevels>
     {
         [Header("Stars Properties")]
-        [SerializeField] public GameObject[] starsOnLevel;
+        [SerializeField] public GameObject[] completedLevelStars;
         [SerializeField] public GameObject[] currentLevelStars;
-
         
-        [SerializeField] private Sprite fullstar;
+        [SerializeField] private Sprite fullStar;
+        [SerializeField] private Sprite emptyStar;
 
-        private LevelView currentLevel;
+        private LevelView currentLevelCount;
+        
         public int currentStarsCount;
         private int allLevelCount;
+        
         private float collectedItems;
         private float allItems;
-
-        private string allStarsInGameText;
 
         public override void OnAwake()
         {
@@ -31,16 +31,14 @@ namespace LevelsSystem
 
         private void Update()
         {
-            //сделать Текущий уровень 
-            // настроить звёзды каждого уровня в списке уровней,чтобы они давались 1
-            
-            currentLevel = 
-                LevelUnlocking.Instance.levels[LevelUnlocking.Instance.level - 1].GetComponent<LevelView>();
-            
+            currentLevelCount = LevelsManager.Instance.currentLevelView;
+
             collectedItems = CollectionManager.Instance.itemCounterForCollection;
             allItems = ItemsSpawner.Instance.itemsToSpawn.Count;
-            currentLevelStars = currentLevel.StarsOnLevel;
-            currentLevel.StarsCount = currentStarsCount;
+
+            if (currentLevelCount == null) return;
+            
+            currentLevelStars = currentLevelCount.StarsOnLevel;
         }
 
         public void StarsCounter()
@@ -50,85 +48,56 @@ namespace LevelsSystem
             if (collectedItems/allItems * 100 >= 100)
             {
                 currentStarsCount = 5;
-                AllStarsOfGame.Instance.allStarsInGame += 5;
-
-                for (int i = 0; i < 5; i++)
-                {
-                    starsOnLevel[i].GetComponent<Image>().sprite = fullstar;
-                }
-                for (int i = 0; i < 5; i++)
-                {
-                    currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
-                }
-                CollectionManager.Instance.itemCounterForCollection = 0;
+                
+                currentLevelCount.StarsCount = 5;
             }
         
             if (collectedItems/allItems * 100 >= 75 && collectedItems/allItems * 100 < 100)
             {
                 currentStarsCount = 4;
-                AllStarsOfGame.Instance.allStarsInGame += 4;
                 
-                for (int i = 0; i < 4; i++)
-                {
-                    starsOnLevel[i].GetComponent<Image>().sprite = fullstar;
-                }
-                for (int i = 0; i < 4; i++)
-                {
-                    currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
-                }
-                
-                CollectionManager.Instance.itemCounterForCollection = 0;
+                currentLevelCount.StarsCount = 4;
             }
         
             if (collectedItems/allItems * 100 >= 50 && collectedItems/allItems * 100 < 75)
             {
                 currentStarsCount = 3;
-                AllStarsOfGame.Instance.allStarsInGame += 3;
                 
-                for (int i = 0; i < 3; i++)
-                {
-                    starsOnLevel[i].GetComponent<Image>().sprite = fullstar;
-                }
-                for (int i = 0; i < 3; i++)
-                {
-                    currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
-                }
-                
-                CollectionManager.Instance.itemCounterForCollection = 0;
+                currentLevelCount.StarsCount = 3;
             }
         
             if (collectedItems/allItems * 100 >=  35 && collectedItems/allItems * 100 < 50)
             {
                 currentStarsCount = 2;
-                AllStarsOfGame.Instance.allStarsInGame += 2;
                 
-                for (int i = 0; i < 2; i++)
-                {
-                    starsOnLevel[i].GetComponent<Image>().sprite = fullstar;
-                }
-                for (int i = 0; i < 2; i++)
-                {
-                    currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
-                }
-                
-                CollectionManager.Instance.itemCounterForCollection = 0;
+                currentLevelCount.StarsCount = 2;
             }
         
             if(collectedItems/allItems * 100 < 35) 
             {
                 currentStarsCount = 1;
-                AllStarsOfGame.Instance.allStarsInGame += 1;
                 
-                for (int i = 0; i < 1; i++)
-                {
-                    starsOnLevel[i].GetComponent<Image>().sprite = fullstar;
-                }
-                for (int i = 0; i < 1; i++)
-                {
-                    currentLevelStars[i].GetComponent<Image>().sprite = fullstar;
-                }
-                
-                CollectionManager.Instance.itemCounterForCollection = 0;
+                currentLevelCount.StarsCount = 1;
+            }
+            
+            for (int i = 0; i < currentStarsCount; i++)
+            {
+                completedLevelStars[i].GetComponent<Image>().sprite = fullStar;
+            }
+            
+            for (int i = 0; i < currentStarsCount; i++)
+            {
+                currentLevelStars[i].GetComponent<Image>().sprite = fullStar;
+            }
+            
+            CollectionManager.Instance.itemCounterForCollection = 0;
+        }
+
+        public void UpdateStarsInLevelCompletedWindow()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                completedLevelStars[i].GetComponent<Image>().sprite = emptyStar;
             }
         }
     }

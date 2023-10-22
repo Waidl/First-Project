@@ -20,31 +20,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baba9261-e7df-4843-81d4-1b943c101a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/EndPoint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/EndPoint.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/WaitPoint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/WaitPoint.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_9.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/MoveContainerPoint 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/MoveContainerPoint 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsSpawnPoints/Point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsSpawnPoints/Point.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level (4).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level (4).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,39 +94,43 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/First-Project-5a5bf6ecdb13cfbbf5c320137259c6b77e8bf384/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/ItemDataSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemDataSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/ExitGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlockingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/CounterStarsOnLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/StarsCounterOnGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/TimerInLevel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemMovementToContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" />
       </list>
     </option>
   </component>
@@ -135,6 +178,13 @@
       <workItem from="1697482043713" duration="1000" />
       <workItem from="1697560369632" duration="10961000" />
       <workItem from="1697642427691" duration="13702000" />
+      <workItem from="1697730362664" duration="9183000" />
+      <workItem from="1697795430703" duration="2833000" />
+      <workItem from="1697798741026" duration="18300000" />
+      <workItem from="1697832992842" duration="3442000" />
+      <workItem from="1697875877052" duration="10518000" />
+      <workItem from="1697901410383" duration="3964000" />
+      <workItem from="1697958220452" duration="1706000" />
     </task>
     <servers />
   </component>

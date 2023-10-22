@@ -1,23 +1,53 @@
 ﻿using System;
+using ContainersSystem;
 using TMPro;
 using UnityEngine;
 
 namespace LevelsSystem
 {
-    public class TimerInLevel : MonoBehaviour
+    public class TimerInLevel : Singletone<TimerInLevel>
     {
-        [SerializeField] private int timer;
+        
         [SerializeField] private TextMeshProUGUI timerText;
+        public float currentSeconds;
+        
+        public bool timerActivation;
 
         private void Start()
         {
-            
+            timerActivation = false;
+            currentSeconds = 5f;
+            timerText.text = currentSeconds.ToString();
         }
 
         private void Update()
         {
-            timerText.text = timer.ToString();
-            timer = (int) +Time.deltaTime;
+            if (timerActivation == true)
+            {
+                Timer();
+            }
+
+            if (timerActivation == false)
+            {
+                currentSeconds = 5;
+            }
+
+            if (currentSeconds == 0)
+            {
+               // StopAllCoroutines();
+                //LevelCompletingManager.Instance.OnCompletingTheLevel();
+            }
+        }
+
+        private void Timer()
+        {
+            currentSeconds -= Time.deltaTime;
+            timerText.text = Mathf.Round(currentSeconds).ToString();
+        }
+
+        public override void OnAwake()
+        {
+            Instance = this;
         }
     }
 }

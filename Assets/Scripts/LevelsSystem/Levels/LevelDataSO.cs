@@ -7,14 +7,14 @@ namespace LevelsSystem.Levels
     public class LevelDataSO : ScriptableObject
     {
         [SerializeField] private Sprite levelAvatarImage;
-        [SerializeField] private string levelNumber;
+        [SerializeField] private int levelNumber;
         [SerializeField] private int maxItemsToSpawn;
         [SerializeField] private string soundOnLevel;
         [SerializeField] private int numberOfStarsToUnlockLevel;
         [SerializeField] private float timeOnLevel;
         
         public Sprite LevelAvatarImage => levelAvatarImage;
-        public string LevelNumber => levelNumber;
+        public int LevelNumber => levelNumber;
         
         public int MaxItemsToSpawn => maxItemsToSpawn;
 
