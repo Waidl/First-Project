@@ -16,8 +16,8 @@ namespace Common
 
         private void Update()
         {
-            allItems = ItemsSpawner.Instance.itemsDataList;
-            allContainers = ContainerSpawner.Instance.containersDataList;
+            allItems = ItemsSpawner.Instance.ItemsDataList;
+            allContainers = ContainerSpawner.Instance.ContainersDataList;
         
         }
 

@@ -7,13 +7,15 @@ namespace ItemsSystem
 {
     public class ItemsSpawner : Singletone<ItemsSpawner>
     {
-        [SerializeField] public ItemView itemViewPrefab;
+        [SerializeField] private ItemView itemViewPrefab;
         
         [SerializeField] private Transform[] spawnPoints;
         
-        [SerializeField] public  List<ItemDataSO> itemsToSpawn = new List<ItemDataSO>();
-        
-        [SerializeField] public  List<ItemView> itemsDataList  = new List<ItemView>();
+        [SerializeField] private  List<ItemDataSO> itemsToSpawn = new List<ItemDataSO>();
+        public List<ItemDataSO> ItemsToSpawn => itemsToSpawn;
+
+        private  List<ItemView> itemsDataList  = new List<ItemView>();
+        public List<ItemView> ItemsDataList => itemsDataList;
 
         private void Start()
         {

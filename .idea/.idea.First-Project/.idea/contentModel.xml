@@ -66,6 +66,9 @@
             <e p="LevelUnlocking.cs" t="Include" />
             <e p="TimerInLevel.cs" t="Include" />
           </e>
+          <e p="SaveSystem" t="Include">
+            <e p="SaveManager.cs" t="Include" />
+          </e>
           <e p="Singletone.cs" t="Include" />
         </e>
         <e p="SO" t="Include">
@@ -74,6 +77,7 @@
         </e>
         <e p="Sounds" t="Include" />
         <e p="Sprites" t="Include">
+          <e p="Backgrounds" t="Include" />
           <e p="Containers" t="Include" />
           <e p="Items" t="Include" />
           <e p="UI" t="Include" />

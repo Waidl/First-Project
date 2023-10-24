@@ -7,14 +7,15 @@ namespace LevelsSystem
 {
     public class LevelUnlocking : Singletone<LevelUnlocking>
     {
-        [SerializeField] public LevelView[] levels;
+        [SerializeField] private LevelView[] levels;
 
-        public int level;
+        private int level;
 
         public override void OnAwake()
         {
             Instance = this;
         }
+        
         private void Start()
         {
             PlayerPrefs.DeleteAll();
@@ -35,7 +36,7 @@ namespace LevelsSystem
         {
             if (LevelsManager.Instance.currentLevelView == null) return;
 
-            level = LevelCompletingManager.Instance.levelCounter;
+            level = LevelCompletingManager.Instance.LevelCounter;
 
             for (int i = 0; i < level; i++)
             {

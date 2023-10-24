@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level_8
   m_EditorClassIdentifier: 
   levelAvatarImage: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
-  levelNumber: 3
+  levelNumber: 8
   maxItemsToSpawn: 8
   soundOnLevel: GameplaySoundThree
   numberOfStarsToUnlockLevel: 4

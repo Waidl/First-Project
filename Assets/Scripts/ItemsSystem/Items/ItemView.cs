@@ -8,7 +8,6 @@ namespace ItemsSystem.Items
         [SerializeField] private string itemName;
 
         public ItemDataSO LevelDataSO { get; private set; }
-        public SpriteRenderer AvatarSprite => avatarSprite;
         public string ItemName => itemName;
 
         public void Initialize(ItemDataSO itemDataSO)

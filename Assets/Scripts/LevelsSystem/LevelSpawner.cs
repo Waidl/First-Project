@@ -10,7 +10,7 @@ namespace LevelsSystem
         [SerializeField] private LevelView levelViewPrefab;
         [SerializeField] private Transform spawnPoint;
         
-        [SerializeField] public List<LevelDataSO> levelsToSpawn;
+        [SerializeField] private List<LevelDataSO> levelsToSpawn;
 
 
         private void Start()

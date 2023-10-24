@@ -9,6 +9,7 @@ namespace LevelsSystem
     {
         
         [SerializeField] private TextMeshProUGUI timerText;
+        
         public float currentSeconds;
         
         public bool timerActivation;
@@ -30,12 +31,6 @@ namespace LevelsSystem
             if (timerActivation == false)
             {
                 currentSeconds = 5;
-            }
-
-            if (currentSeconds == 0)
-            {
-               // StopAllCoroutines();
-                //LevelCompletingManager.Instance.OnCompletingTheLevel();
             }
         }
 

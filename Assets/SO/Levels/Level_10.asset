@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level_10
   m_EditorClassIdentifier: 
   levelAvatarImage: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
-  levelNumber: 5
+  levelNumber: 10
   maxItemsToSpawn: 10
   soundOnLevel: 
   numberOfStarsToUnlockLevel: 4

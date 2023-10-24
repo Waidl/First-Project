@@ -17,10 +17,12 @@ namespace LevelsSystem
         
         [SerializeField] private LevelView nextLevel;
         
-        public TimerInLevel timerInLevel;
+        private TimerInLevel timerInLevel;
         
-        public int levelCounter = 1;
-        
+        private int levelCounter = 1;
+
+        public int LevelCounter => levelCounter;
+
         public override void OnAwake()
         {
             Instance = this;
@@ -36,9 +38,9 @@ namespace LevelsSystem
             nextLevel = LevelsManager.Instance.LevelDataList[levelCounter];
             
             if(timerInLevel.currentSeconds <= 0f ||
-               containerSpawner.containersToSpawn.Count == 
+               containerSpawner.ContainersToSpawn.Count == 
                containerSpawner.containerCounter &&
-               containerSpawner.containersToSpawn.Count != 0)
+               containerSpawner.ContainersToSpawn.Count != 0)
             {
                 CounterStarsOnLevels.Instance.StarsCounter();
 
@@ -58,7 +60,7 @@ namespace LevelsSystem
             }
         }
         
-        public void OnCompletingTheLevel()
+        private void OnCompletingTheLevel()
         {
             ItemsSpawner.Instance.CleanUp();
             ContainerSpawner.Instance.CleanUp();

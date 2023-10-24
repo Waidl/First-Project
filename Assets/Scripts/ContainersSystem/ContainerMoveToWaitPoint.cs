@@ -1,5 +1,3 @@
-using System;
-using ItemsSystem.Items;
 using UnityEngine;
 
 namespace ContainersSystem
@@ -7,7 +5,8 @@ namespace ContainersSystem
     public class ContainerMoveToWaitPoint : MonoBehaviour
     {
         [SerializeField] public float speed = 4f;
-        public Transform moveToWaitPoint;
+        
+        [SerializeField] private Transform moveToWaitPoint;
 
         private void Update()
         {

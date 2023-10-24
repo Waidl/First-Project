@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level_20
   m_EditorClassIdentifier: 
   levelAvatarImage: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
-  levelNumber: 1
+  levelNumber: 20
   maxItemsToSpawn: 1
   soundOnLevel: GameplaySoundOne
   numberOfStarsToUnlockLevel: 4

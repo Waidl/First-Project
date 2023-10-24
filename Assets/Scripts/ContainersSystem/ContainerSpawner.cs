@@ -1,22 +1,20 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using ItemsSystem;
 using ItemsSystem.Items;
-using LevelsSystem;
 using UnityEngine;
 
 namespace ContainersSystem
 {
     public class ContainerSpawner : Singletone<ContainerSpawner>
     {
-        [SerializeField] public ItemView containerPrefab;
+        [SerializeField] private ItemView containerPrefab;
         [SerializeField] private Transform spawnPoint;
         
-        [SerializeField] public List<ItemDataSO> containersToSpawn = new List<ItemDataSO>();
-        
-        [SerializeField] public List<ItemView> containersDataList = new List<ItemView>();
+        [SerializeField] private List<ItemDataSO> containersToSpawn = new List<ItemDataSO>();
+        public List<ItemDataSO> ContainersToSpawn => containersToSpawn;
+
+        private List<ItemView> containersDataList = new List<ItemView>();
+        public List<ItemView> ContainersDataList => containersDataList;
 
         public int containerCounter;
 

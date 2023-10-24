@@ -5,8 +5,9 @@ namespace ContainersSystem
 {
     public class ContainerMoveToEndPoint : MonoBehaviour
     {
-        [SerializeField] public float speed = 4f;
-        public Transform moveToEndPoint;
+        [SerializeField] private float speed = 4f;
+        
+        [SerializeField] private Transform moveToEndPoint;
 
         private void Update()
         {
@@ -14,7 +15,7 @@ namespace ContainersSystem
             if (transform.position == moveToEndPoint.position)
             {
                 Destroy(gameObject);
-                ContainerSpawner.Instance.containersDataList.Remove(gameObject.GetComponent<ItemView>());
+                ContainerSpawner.Instance.ContainersDataList.Remove(gameObject.GetComponent<ItemView>());
                 ContainerSpawner.Instance.containerCounter++;
                 gameObject.GetComponent<ContainerMoveToWaitPoint>().enabled = false;
                 gameObject.GetComponent<ContainerMoveToEndPoint>().enabled = true;

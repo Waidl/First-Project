@@ -49,7 +49,7 @@ namespace LevelsSystem
 
         private void Update()
         {
-            currentLevelView = levelDataList[LevelCompletingManager.Instance.levelCounter-1];
+            currentLevelView = levelDataList[LevelCompletingManager.Instance.LevelCounter-1];
             
         }
     }

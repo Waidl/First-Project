@@ -62,9 +62,11 @@ namespace LevelsSystem.Levels
         {
             levelsWindow.SetActive(false);
             gameplayWindow.SetActive(true);
+            
             AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
             
             OnStartLevel();
+            
             LevelsManager.Instance.currentLevelView = gameObject.GetComponent<LevelView>();
         }
         
@@ -81,11 +83,11 @@ namespace LevelsSystem.Levels
             
             for (int i = 0; i < MaxItemsToSpawn ; i++)
             {
-                ItemsSpawner.Instance.itemsToSpawn.Add(LevelsManager.Instance.AllItemsDataSOForGame[i]);
-                ContainerSpawner.Instance.containersToSpawn.Add(LevelsManager.Instance.AllItemsDataSOForGame[i]);
+                ItemsSpawner.Instance.ItemsToSpawn.Add(LevelsManager.Instance.AllItemsDataSOForGame[i]);
+                ContainerSpawner.Instance.ContainersToSpawn.Add(LevelsManager.Instance.AllItemsDataSOForGame[i]);
             }
             
-            ItemsSpawner.Instance.Initialize(ItemsSpawner.Instance.itemsToSpawn);
+            ItemsSpawner.Instance.Initialize(ItemsSpawner.Instance.ItemsToSpawn);
             ContainerSpawner.Instance.StartSpawnContainers();
         }
                 
@@ -94,9 +96,12 @@ namespace LevelsSystem.Levels
             for (int i = 0; i < LevelsManager.Instance.AllItemsDataSOForGame.Count; i++)
             {
                 ItemDataSO temp = LevelsManager.Instance.AllItemsDataSOForGame[i];
+                
                 int randomIndex = Random.Range(0, LevelsManager.Instance.AllItemsDataSOForGame.Count);
+                
                 LevelsManager.Instance.AllItemsDataSOForGame[i] = 
                     LevelsManager.Instance.AllItemsDataSOForGame[randomIndex];
+                
                 LevelsManager.Instance.AllItemsDataSOForGame[randomIndex] = temp;
             }
         }

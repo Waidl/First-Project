@@ -10,15 +10,15 @@ namespace LevelsSystem
     public class CounterStarsOnLevels : Singletone<CounterStarsOnLevels>
     {
         [Header("Stars Properties")]
-        [SerializeField] public GameObject[] completedLevelStars;
-        [SerializeField] public GameObject[] currentLevelStars;
+        [SerializeField] private GameObject[] completedLevelStars;
+        [SerializeField] private GameObject[] currentLevelStars;
         
         [SerializeField] private Sprite fullStar;
         [SerializeField] private Sprite emptyStar;
 
         private LevelView currentLevelCount;
         
-        public int currentStarsCount;
+        private int currentStarsCount;
         private int allLevelCount;
         
         private float collectedItems;
@@ -33,8 +33,8 @@ namespace LevelsSystem
         {
             currentLevelCount = LevelsManager.Instance.currentLevelView;
 
-            collectedItems = CollectionManager.Instance.itemCounterForCollection;
-            allItems = ItemsSpawner.Instance.itemsToSpawn.Count;
+            collectedItems = CollectionManager.Instance.ItemCounterForCollection;
+            allItems = ItemsSpawner.Instance.ItemsToSpawn.Count;
 
             if (currentLevelCount == null) return;
             
@@ -90,7 +90,7 @@ namespace LevelsSystem
                 currentLevelStars[i].GetComponent<Image>().sprite = fullStar;
             }
             
-            CollectionManager.Instance.itemCounterForCollection = 0;
+            CollectionManager.Instance.ItemCounterForCollection = 0;
         }
 
         public void UpdateStarsInLevelCompletedWindow()

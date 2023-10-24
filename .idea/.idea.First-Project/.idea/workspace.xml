@@ -20,67 +20,134 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baba9261-e7df-4843-81d4-1b943c101a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_17.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_17.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_18.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_18.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_19.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_19.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_20.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_20.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_21.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_21.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_22.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_22.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21034592.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21034592.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21Z_2103.w015.n001.352B.p15.352.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21Z_2103.w015.n001.352B.p15.352.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2206.q705.018.S.m005.c12.balusters column terrace balcony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2206.q705.018.S.m005.c12.balusters column terrace balcony.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1039B.p15.1039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1039B.p15.1039.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1045B.p15.1045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1045B.p15.1045.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/4223536.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/4223536.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsSpawnPoints/Point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsSpawnPoints/Point.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level (4).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level (4).prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_10.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_100.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_100.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_11.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_12.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_13.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_14.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_14.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_15.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_15.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_16.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_16.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_17.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_17.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_18.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_18.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_19.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_19.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_20.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_20.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_21.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_21.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_22.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_22.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_23.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_23.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_24.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_24.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_25.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_25.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_26.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_26.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_27.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_27.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_28.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_28.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_29.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_29.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_30.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_30.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_31.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_31.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_32.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_32.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_33.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_33.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_34.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_34.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_35.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_35.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_36.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_36.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_37.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_37.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_38.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_38.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_39.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_39.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_40.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_40.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_41.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_41.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_42.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_42.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_43.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_43.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_44.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_44.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_45.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_45.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_46.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_46.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_47.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_47.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_48.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_48.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_49.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_49.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_50.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_50.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_51.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_51.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_52.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_52.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_53.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_53.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_54.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_54.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_55.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_55.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_56.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_56.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_57.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_57.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_58.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_58.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_59.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_59.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_60.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_60.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_61.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_61.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_62.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_62.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_63.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_63.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_64.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_64.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_65.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_65.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_66.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_66.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_67.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_67.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_68.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_68.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_69.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_69.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_7.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_70.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_70.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_71.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_71.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_72.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_72.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_73.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_73.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_74.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_74.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_75.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_75.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_76.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_76.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_77.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_77.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_78.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_78.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_79.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_79.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_8.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_80.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_80.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_81.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_81.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_82.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_82.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_83.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_83.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_84.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_84.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_85.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_85.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_86.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_86.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_87.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_87.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_88.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_88.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_89.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_89.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_9.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_90.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_90.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_91.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_91.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_92.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_92.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_93.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_93.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_94.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_94.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_95.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_95.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_96.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_96.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_97.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_97.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_98.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_98.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_99.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_99.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" afterDir="false" />
@@ -103,34 +170,35 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/ItemDataSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemDataSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/ExitGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlockingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/CounterStarsOnLevels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/StarsCounterOnGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/TimerInLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemMovementToContainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
       </list>
     </option>
   </component>
@@ -184,7 +252,8 @@
       <workItem from="1697832992842" duration="3442000" />
       <workItem from="1697875877052" duration="10518000" />
       <workItem from="1697901410383" duration="3964000" />
-      <workItem from="1697958220452" duration="1706000" />
+      <workItem from="1697958220452" duration="11711000" />
+      <workItem from="1698075445026" duration="2453000" />
     </task>
     <servers />
   </component>
@@ -217,9 +286,9 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="100" y="100" width="1080" height="472" key="VCS.FileHistoryDialog/0.0.1280.672@0.0.1280.672" timestamp="1697570489792" />
-    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1697480562627">
+    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1697967749326">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1697480562627" />
+    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1697967749326" />
   </component>
 </project>

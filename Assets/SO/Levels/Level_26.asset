@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253ba725963d4fc1b18960895c37e233, type: 3}
   m_Name: Level_26
   m_EditorClassIdentifier: 
-  levelAvatarImage: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
-  levelNumber: 1
+  levelAvatarImage: {fileID: -756052510, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
+  levelNumber: 26
   maxItemsToSpawn: 1
   soundOnLevel: GameplaySoundOne
   numberOfStarsToUnlockLevel: 4

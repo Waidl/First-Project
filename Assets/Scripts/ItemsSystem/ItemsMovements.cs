@@ -7,10 +7,10 @@ namespace ItemsSystem
     public class ItemsMovements : MonoBehaviour
     {
         [SerializeField] private float speed;
-        [SerializeField] public Transform[] movePoints;
+        [SerializeField] private Transform[] movePoints;
 
         private int randomPoint;
-        private float _minimalDistanceToPoint = 0.2f;
+        private float minimalDistanceToPoint = 0.2f;
 
         private void Awake()
         {
@@ -20,7 +20,6 @@ namespace ItemsSystem
 
         private void FixedUpdate()
         {
-            //speed = Random.Range(1, speed);
             MoveToPoints();
         }
 
@@ -32,7 +31,7 @@ namespace ItemsSystem
                 speed * Time.deltaTime);
             
             if (Vector2.Distance(transform.position, movePoints[randomPoint].position)
-                < _minimalDistanceToPoint)
+                < minimalDistanceToPoint)
             {
                 randomPoint = Random.Range(0, movePoints.Length);
             }

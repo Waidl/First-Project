@@ -12,11 +12,17 @@ namespace CollectionSystem
     {
         [Header("CollectionProperties")]
         [SerializeField] private List<GameObject> items;
-        [SerializeField] public List<GameObject> filtrededItems; 
+        [SerializeField] private List<GameObject> filtrededItems; 
         public List<GameObject> Items => items;
 
-        [SerializeField] public float moveSpeed = 1f;
-        [SerializeField] public int itemCounterForCollection;
+        [SerializeField] private float moveSpeed = 1f;
+        [SerializeField] private int itemCounterForCollection;
+
+        public int ItemCounterForCollection
+        {
+            get => itemCounterForCollection;
+            set => itemCounterForCollection = value;
+        }
 
         public override void OnAwake()
         {
@@ -74,7 +80,7 @@ namespace CollectionSystem
                 
                 Destroy(items[0]);
                 
-                ItemsSpawner.Instance.itemsDataList.Remove(items[0].GetComponent<ItemView>());
+                ItemsSpawner.Instance.ItemsDataList.Remove(items[0].GetComponent<ItemView>());
                 
                 items.Clear();
                 
