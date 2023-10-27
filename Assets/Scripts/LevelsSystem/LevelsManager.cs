@@ -31,6 +31,8 @@ namespace LevelsSystem
         
         [SerializeField] private GameObject levelManager;
         public GameObject LevelManager=>levelManager;
+
+        [SerializeField] private Animator menuWindow;
         
         [Header("LevelsProperties")]
         [SerializeField] public List<LevelView> completedLevels;
@@ -50,7 +52,6 @@ namespace LevelsSystem
         private void Update()
         {
             currentLevelView = levelDataList[LevelCompletingManager.Instance.LevelCounter-1];
-            
         }
     }
 }

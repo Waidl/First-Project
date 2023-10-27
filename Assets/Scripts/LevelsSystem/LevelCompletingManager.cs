@@ -1,8 +1,10 @@
 ﻿using System;
 using CollectionSystem;
+using Common;
 using ContainersSystem;
 using ItemsSystem;
 using LevelsSystem.Levels;
+using SaveSystem;
 using UnityEngine;
 
 namespace LevelsSystem
@@ -14,12 +16,15 @@ namespace LevelsSystem
         [SerializeField] private GameObject gameplayWindow;
         
         [SerializeField] private ContainerSpawner containerSpawner;
+        [SerializeField] private SaveManager saveManager;
         
         [SerializeField] private LevelView nextLevel;
         
+        [SerializeField] public int levelCounter;
+        
         private TimerInLevel timerInLevel;
         
-        private int levelCounter = 1;
+       
 
         public int LevelCounter => levelCounter;
 
@@ -31,6 +36,7 @@ namespace LevelsSystem
         private void Start()
         {
             timerInLevel = GetComponent<TimerInLevel>();
+            
         }
 
         private void Update()
@@ -48,6 +54,7 @@ namespace LevelsSystem
                     LevelsManager.Instance.currentLevelView.StarsCount > nextLevel.NumberOfStarsToUnlockLevel)
                 {
                     levelCounter++;
+                    saveManager.Save();
                 }
 
                 timerInLevel.timerActivation = false;
@@ -62,6 +69,8 @@ namespace LevelsSystem
         
         private void OnCompletingTheLevel()
         {
+            AudioManager.AudioManager.Instance.Play(GameConfig.EndLevelSound);
+            
             ItemsSpawner.Instance.CleanUp();
             ContainerSpawner.Instance.CleanUp();
             

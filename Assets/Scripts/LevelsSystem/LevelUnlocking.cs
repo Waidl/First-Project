@@ -1,5 +1,6 @@
 ﻿using ContainersSystem;
 using LevelsSystem.Levels;
+using SaveSystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,19 +8,22 @@ namespace LevelsSystem
 {
     public class LevelUnlocking : Singletone<LevelUnlocking>
     {
+        [SerializeField] private SaveManager saveManager;
+        
         [SerializeField] private LevelView[] levels;
-
-        private int level;
+        [SerializeField] private int level;
 
         public override void OnAwake()
         {
             Instance = this;
         }
+
+
         
         private void Start()
         {
-            PlayerPrefs.DeleteAll();
             LockedLevels();
+            //PlayerPrefs.DeleteAll();
         }
 
         private void LockedLevels()
@@ -35,9 +39,9 @@ namespace LevelsSystem
         public void UnlockLevel()
         {
             if (LevelsManager.Instance.currentLevelView == null) return;
-
+            
             level = LevelCompletingManager.Instance.LevelCounter;
-
+            
             for (int i = 0; i < level; i++)
             {
                 levels[i].GetComponent<Button>().enabled = true;

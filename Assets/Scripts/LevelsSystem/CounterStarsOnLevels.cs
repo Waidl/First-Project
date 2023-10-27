@@ -1,4 +1,5 @@
-﻿using CollectionSystem;
+﻿using System;
+using CollectionSystem;
 using Common;
 using ItemsSystem;
 using LevelsSystem.Levels;
@@ -29,6 +30,11 @@ namespace LevelsSystem
             Instance = this;
         }
 
+        private void Start()
+        {
+            StarsCounter();
+        }
+
         private void Update()
         {
             currentLevelCount = LevelsManager.Instance.currentLevelView;
@@ -43,8 +49,6 @@ namespace LevelsSystem
 
         public void StarsCounter()
         {
-            AudioManager.AudioManager.Instance.Play(GameConfig.EndLevelSound);
-            
             if (collectedItems/allItems * 100 >= 100)
             {
                 currentStarsCount = 5;

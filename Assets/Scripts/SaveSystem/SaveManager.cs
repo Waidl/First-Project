@@ -1,18 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
+using LevelsSystem;
 using UnityEngine;
 
-public class SaveManager : MonoBehaviour
+namespace SaveSystem
 {
-    // Start is called before the first frame update
-    void Start()
+    public class SaveManager : Singletone<SaveManager>
     {
-        
-    }
+        [SerializeField] private LevelCompletingManager levelCompletingManager;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void Save()
+        {
+            PlayerPrefs.SetInt("completedLevels",levelCompletingManager.levelCounter);
+        }
+
+        private void Awake()
+        {
+            Load();
+        }
+        public void Load()
+        {
+            PlayerPrefs.GetInt("completedLevels");
+        }
+
+        public override void OnAwake()
+        {
+            Instance = this;
+        }
     }
 }
