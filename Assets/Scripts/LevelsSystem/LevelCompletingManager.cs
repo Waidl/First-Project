@@ -48,10 +48,10 @@ namespace LevelsSystem
                containerSpawner.containerCounter &&
                containerSpawner.ContainersToSpawn.Count != 0)
             {
-                CounterStarsOnLevels.Instance.StarsCounter();
+                CounterStarsOnLevels.Instance.HealthCounter();
 
-                if (LevelsManager.Instance.currentLevelView.LevelNumber == levelCounter &&
-                    LevelsManager.Instance.currentLevelView.StarsCount > nextLevel.NumberOfStarsToUnlockLevel)
+                if (LevelsManager.Instance.currentLevelView.LevelNumber == levelCounter) //&&
+                    //LevelsManager.Instance.currentLevelView.StarsCount > nextLevel.NumberOfStarsToUnlockLevel)
                 {
                     levelCounter++;
                     saveManager.Save();

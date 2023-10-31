@@ -20,14 +20,160 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baba9261-e7df-4843-81d4-1b943c101a59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Man.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Man.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Background 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Background 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Background.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Background.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Container.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Container.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ContainerItemCollected.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ContainerItemCollected.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ExitButton(MenuWindow).anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ExitButton(MenuWindow).anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ExitButton.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ExitButton.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameName 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameName 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameName.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameName.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameplayBackground.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameplayBackground.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/LevelSelection(MenuWindow).anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/LevelSelection(MenuWindow).anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/LevelSelection.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/LevelSelection.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuBackground.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuBackground.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuGameName.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuGameName.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuWindow.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuWindow.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuWindow.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuWindow.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/OnClickAnimation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/OnClickAnimation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/StartButton(MenuWindow).anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/StartButton(MenuWindow).anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/StartButton.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/StartButton.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/item_1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/item_1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_9.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1031.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1263.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1263.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/2108.q705.035.P.m005.c20.japanese asian national cultural fortune symbols set-01-PhotoRoom.png-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/2108.q705.035.P.m005.c20.japanese asian national cultural fortune symbols set-01-PhotoRoom.png-PhotoRoom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/2908-transformed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/2908-transformed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/7093-PhotoRoom.png-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/7093-PhotoRoom.png-PhotoRoom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21034592.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21034592.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21Z_2103.w015.n001.352B.p15.352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/21Z_2103.w015.n001.352B.p15.352.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2206.q705.018.S.m005.c12.balusters column terrace balcony.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2206.q705.018.S.m005.c12.balusters column terrace balcony.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1039B.p15.1039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1039B.p15.1039.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1045B.p15.1045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/2210.w015.n003.1045B.p15.1045.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/4223536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/4223536.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Container.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Container.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/item_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items_set_1-PhotoRoom.png-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items_set_1-PhotoRoom.png-PhotoRoom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/2204_w026_n002_1739b_p1_1739-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/2204_w026_n002_1739b_p1_1739-removebg-preview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/2204_w026_n002_1774b_p1_1774-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/2204_w026_n002_1774b_p1_1774-removebg-preview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/7897577.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/7897577.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Box_1-removebg-preview (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Box_1-removebg-preview (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Box_2-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Box_2-removebg-preview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Button_1-fotor-bg-remover-20230914181933.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Button_1-fotor-bg-remover-20230914181933.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Button_2-transformed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Button_2-transformed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Button_3-fotor-bg-remover-20230914182336.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Button_3-fotor-bg-remover-20230914182336.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Conveier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Conveier.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Setting_UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Setting_UI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/StarFull_UI-transformed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/StarFull_UI-transformed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Star_UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Star_UI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/UI_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/UI_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/v649-aew-27-chinanationalday.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/v649-aew-27-chinanationalday.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/background 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/background 1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/background_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/background_2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/wishpics_ru_899ebec559603c36b2b142b90589aeab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/wishpics_ru_899ebec559603c36b2b142b90589aeab.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Без имени-PhotoRoom.png-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Без имени-PhotoRoom.png-PhotoRoom.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +185,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/First-Project-5a5bf6ecdb13cfbbf5c320137259c6b77e8bf384/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -66,21 +213,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2WnpDkUIzdQS43O5KpJFm1jcitz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -136,6 +286,7 @@
       <workItem from="1698167392848" duration="891000" />
       <workItem from="1698335079262" duration="1000" />
       <workItem from="1698335158112" duration="1414000" />
+      <workItem from="1698780745945" duration="1539000" />
     </task>
     <servers />
   </component>

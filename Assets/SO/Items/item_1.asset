@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7f2f9efd3d01041b6d271d5b3026bf, type: 3}
   m_Name: item_1
   m_EditorClassIdentifier: 
-  avatarSprite: {fileID: 1563143104, guid: 2e5be26e0b49bba43b7e49a3c4c64e55, type: 3}
+  avatarSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   itemName: item_1
   typeIndex: 1
