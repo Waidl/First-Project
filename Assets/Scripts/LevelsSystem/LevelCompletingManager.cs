@@ -1,5 +1,4 @@
-﻿using System;
-using CollectionSystem;
+﻿using CollectionSystem;
 using Common;
 using ContainersSystem;
 using ItemsSystem;
@@ -16,18 +15,17 @@ namespace LevelsSystem
         [SerializeField] private GameObject gameplayWindow;
         
         [SerializeField] private ContainerSpawner containerSpawner;
+        [SerializeField] private ItemsSpawner itemsSpawner;
+        [SerializeField] private CollectionManager collectionManager;
+        [SerializeField] private HealthManager healthManager;
         [SerializeField] private SaveManager saveManager;
         
-        [SerializeField] private LevelView nextLevel;
-        
-        [SerializeField] public int levelCounter;
+        private int levelCounter = 1;
+        public int LevelCounter => levelCounter;
         
         private TimerInLevel timerInLevel;
-        
-       
 
-        public int LevelCounter => levelCounter;
-
+        //[SerializeField] private LevelView nextLevel;
         public override void OnAwake()
         {
             Instance = this;
@@ -35,46 +33,63 @@ namespace LevelsSystem
 
         private void Start()
         {
-            timerInLevel = GetComponent<TimerInLevel>();
+            levelCounter = PlayerPrefs.GetInt("currentLevel",levelCounter);
             
+            timerInLevel = GetComponent<TimerInLevel>();
         }
 
         private void Update()
         {
-            nextLevel = LevelsManager.Instance.LevelDataList[levelCounter];
+            //nextLevel = LevelsManager.Instance.LevelDataList[levelCounter];
             
-            if(timerInLevel.currentSeconds <= 0f ||
+            if(timerInLevel.TimerActivation && timerInLevel.CurrentSeconds <= 0f ||
                containerSpawner.ContainersToSpawn.Count == 
-               containerSpawner.containerCounter &&
+               containerSpawner.ContainerCounter &&
                containerSpawner.ContainersToSpawn.Count != 0)
             {
-                CounterStarsOnLevels.Instance.HealthCounter();
-
-                if (LevelsManager.Instance.currentLevelView.LevelNumber == levelCounter) //&&
-                    //LevelsManager.Instance.currentLevelView.StarsCount > nextLevel.NumberOfStarsToUnlockLevel)
+                /*if(LevelsManager.Instance.currentLevelView.MaxItemsToSpawn > collectionManager.ItemCounterForCollection)
+                {
+                    healthManager.RemoveHealthPerLevel();
+                }*/
+                
+                if (LevelsManager.Instance.CurrentLevelView.MaxItemsToSpawn ==
+                    collectionManager.ItemCounterForCollection)
                 {
                     levelCounter++;
-                    saveManager.Save();
+                    healthManager.AddHealthPerLevel();
                 }
-
-                timerInLevel.timerActivation = false;
-                containerSpawner.StopAllCoroutines();
-                containerSpawner.CleanUp();
+                else
+                {
+                    healthManager.RemoveHealthPerLevel();
+                }
                 
                 OnCompletingTheLevel();
-                
-                LevelUnlocking.Instance.UnlockLevel();
+            }
+
+            if (healthManager.CurrentHealth == 0)
+            {
+                levelCounter = 1;
+                healthManager.ResetHealth();
             }
         }
         
         private void OnCompletingTheLevel()
         {
+            saveManager.Save();
+            
+            timerInLevel.TimerActivation = false;
+            
             AudioManager.AudioManager.Instance.Play(GameConfig.EndLevelSound);
             
-            ItemsSpawner.Instance.CleanUp();
-            ContainerSpawner.Instance.CleanUp();
+            LevelUnlocking.Instance.UnlockingLevel();
             
-            CollectionManager.Instance.Items.Clear();
+            itemsSpawner.CleanUp();
+            
+            containerSpawner.StopAllCoroutines();
+            containerSpawner.CleanUp();
+            
+            collectionManager.Items.Clear();
+            collectionManager.RestartCollectionCounter();
             
             gameplayWindow.SetActive(false);
             levelCompletedWindow.SetActive(true);

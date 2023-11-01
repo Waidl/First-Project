@@ -5,6 +5,7 @@ using ContainersSystem;
 using ItemsSystem;
 using ItemsSystem.Items;
 using LevelsSystem.Levels;
+using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -12,46 +13,47 @@ namespace LevelsSystem
 {
     public class LevelsManager : Singletone<LevelsManager>
     {
-        [Header("DataProperties")]
+        [Header("DataListsProperties")]
         [SerializeField] private List<ItemDataSO> allItemsDataSOForGame = new List<ItemDataSO>();
         public List<ItemDataSO> AllItemsDataSOForGame => allItemsDataSOForGame;
         
-        [SerializeField] public List<LevelView> levelDataList  = new List<LevelView>();
+        [SerializeField] public List<LevelView> levelDataList = new List<LevelView>();
         public List<LevelView> LevelDataList => levelDataList;
         
-        private List<GameObject> allLevelDataList  = new List<GameObject>();
+        private List<GameObject> allLevelDataList = new List<GameObject>();
         public List<GameObject> AllLevelDataList => allLevelDataList;
         
-        [Header("GameWindow")]
-        [SerializeField] private GameObject levelsWindow;
-        public GameObject LevelsWindow => levelsWindow;
-        
+        [Header("GameWindowSettings")]
         [SerializeField] private GameObject gameplayWindow;
         public GameObject GameplayWindow => gameplayWindow;
         
         [SerializeField] private GameObject levelManager;
-        public GameObject LevelManager=>levelManager;
+        public GameObject LevelManager => levelManager;
 
         [SerializeField] private Animator menuWindow;
         
-        [Header("LevelsProperties")]
-        [SerializeField] public List<LevelView> completedLevels;
+        [SerializeField] private TextMeshProUGUI currentLevelNumber;
         
-        public LevelView currentLevelView;
+        [Header("LevelsProperties")] 
+        //[SerializeField] public List<LevelView> completedLevels;
+        private LevelView currentLevelView;
+        public LevelView CurrentLevelView => currentLevelView;
 
         public override void OnAwake()
         {
             Instance = this;
         }
         
-        public void StartGame()
-        {
-            currentLevelView.OnStartLevel();
-        }
-
         private void Update()
         {
             currentLevelView = levelDataList[LevelCompletingManager.Instance.LevelCounter-1];
         }
+        
+        public void StartGame()
+        {
+            currentLevelView.OnStartLevel();
+            currentLevelNumber.text = currentLevelView.LevelNumber.ToString();
+        }
+
     }
 }

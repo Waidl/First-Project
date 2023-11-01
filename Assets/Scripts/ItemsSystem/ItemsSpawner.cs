@@ -7,6 +7,7 @@ namespace ItemsSystem
 {
     public class ItemsSpawner : Singletone<ItemsSpawner>
     {
+        [Header("ItemsSpawnerProperties")]
         [SerializeField] private ItemView itemViewPrefab;
         
         [SerializeField] private Transform[] spawnPoints;
@@ -17,6 +18,11 @@ namespace ItemsSystem
         private  List<ItemView> itemsDataList  = new List<ItemView>();
         public List<ItemView> ItemsDataList => itemsDataList;
 
+        public override void OnAwake()
+        {
+            Instance = this;
+        }
+        
         private void Start()
         {
             Initialize(itemsToSpawn);
@@ -51,11 +57,6 @@ namespace ItemsSystem
             }
             itemsDataList.Clear();
             itemsToSpawn.Clear();
-        }
-
-        public override void OnAwake()
-        {
-            Instance = this;
         }
     }
 }

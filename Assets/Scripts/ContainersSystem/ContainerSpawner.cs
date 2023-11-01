@@ -7,26 +7,39 @@ namespace ContainersSystem
 {
     public class ContainerSpawner : Singletone<ContainerSpawner>
     {
+        [Header("ContainerSpawnerProperties")]
         [SerializeField] private ItemView containerPrefab;
         [SerializeField] private Transform spawnPoint;
         
         [SerializeField] private List<ItemDataSO> containersToSpawn = new List<ItemDataSO>();
         public List<ItemDataSO> ContainersToSpawn => containersToSpawn;
-
+        
         private List<ItemView> containersDataList = new List<ItemView>();
         public List<ItemView> ContainersDataList => containersDataList;
-
-        public int containerCounter;
+        
+        private int containerCounter;
+        public int ContainerCounter => containerCounter;
+        
+        public override void OnAwake()
+        {
+            Instance = this;
+        }
 
         private void Start()
         {
             StartSpawnContainers();
         }
 
+        public void IncreaseCounter()
+        {
+            containerCounter++;
+        }
+
         public void StartSpawnContainers()
         {
             StartCoroutine(SpawnerCoroutine(containersToSpawn));
         }
+        
         private void SpawnContainers(ItemDataSO itemDataSO)
         {
             ItemView itemView = Instantiate(containerPrefab, spawnPoint);
@@ -36,7 +49,7 @@ namespace ContainersSystem
             containersDataList.Add(itemView);
         }
 
-        public IEnumerator SpawnerCoroutine(List<ItemDataSO> itemsData)
+        private IEnumerator SpawnerCoroutine(List<ItemDataSO> itemsData)
         {
             foreach (var itemData in itemsData)
             {
@@ -47,6 +60,7 @@ namespace ContainersSystem
                 SpawnContainers(itemData);
             }
         }
+        
         public void CleanUp()
         {
             foreach (var itemView in containersDataList)
@@ -57,11 +71,6 @@ namespace ContainersSystem
             containersDataList.Clear();
             containersToSpawn.Clear();
             containerCounter = 0;
-        }
-        
-        public override void OnAwake()
-        {
-            Instance = this;
         }
     }
 }

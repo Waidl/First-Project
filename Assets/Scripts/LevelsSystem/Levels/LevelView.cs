@@ -1,7 +1,4 @@
-﻿using System;
-using AudioManager;
-using Common;
-using ContainersSystem;
+﻿using ContainersSystem;
 using ItemsSystem;
 using ItemsSystem.Items;
 using TMPro;
@@ -30,7 +27,6 @@ namespace LevelsSystem.Levels
         
         private void Start()
         {
-            levelsWindow = LevelsManager.Instance.LevelsWindow;
             gameplayWindow = LevelsManager.Instance.GameplayWindow;
         }
 
@@ -43,24 +39,10 @@ namespace LevelsSystem.Levels
             levelNumber = levelDataSO.LevelNumber;
         }
         
-        public void OnButtonClick()
-        {
-            levelsWindow.SetActive(false);
-            gameplayWindow.SetActive(true);
-            
-            AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
-            
-            OnStartLevel();
-            
-            LevelsManager.Instance.currentLevelView = gameObject.GetComponent<LevelView>();
-        }
-        
         public void OnStartLevel()
         {
-            LevelsManager.Instance.completedLevels.Add(gameObject.GetComponent<LevelView>());
-
-            TimerInLevel.Instance.currentSeconds = TimeOnLevel;
-            TimerInLevel.Instance.timerActivation = true;
+            TimerInLevel.Instance.CurrentSeconds = TimeOnLevel;
+            TimerInLevel.Instance.TimerActivation = true;
 
             MixingList();
             

@@ -6,24 +6,33 @@ namespace SaveSystem
     public class SaveManager : Singletone<SaveManager>
     {
         [SerializeField] private LevelCompletingManager levelCompletingManager;
-
+        [SerializeField] private HealthManager healthManager;
+        
+        public override void OnAwake()
+        {
+            Instance = this;
+        }
+        
         public void Save()
         {
-            PlayerPrefs.SetInt("completedLevels",levelCompletingManager.levelCounter);
+            Debug.Log("Save");
+            
+            PlayerPrefs.SetInt("currentHealth",healthManager.CurrentHealth);
+            PlayerPrefs.SetInt("currentLevel",levelCompletingManager.LevelCounter);
+            
         }
 
         private void Awake()
         {
+            //PlayerPrefs.DeleteAll();
             Load();
         }
-        public void Load()
+        private void Load()
         {
-            PlayerPrefs.GetInt("completedLevels");
-        }
-
-        public override void OnAwake()
-        {
-            Instance = this;
+            Debug.Log("Load");
+            
+            PlayerPrefs.GetInt("currentLevel");
+            PlayerPrefs.GetInt("currentHealth");
         }
     }
 }

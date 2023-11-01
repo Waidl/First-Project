@@ -53,6 +53,10 @@ namespace Common
             }
             LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = true;
         }
-        
+
+        public void GoToMenu()
+        {
+            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = true;
+        }
     }
 }

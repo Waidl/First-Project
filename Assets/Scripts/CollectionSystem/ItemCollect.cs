@@ -8,14 +8,13 @@ namespace CollectionSystem
     {
         public void OnMouseDown()
         {
-            if (gameObject.GetComponent<ItemsMovements>() != null &&
-                CollectionManager.Instance.Items.Count == 0)
+            if (gameObject.GetComponent<ItemsMovements>() != null && CollectionManager.Instance.Items.Count == 0)
             {
                 CollectionManager.Instance.Items.Add(gameObject);
-                gameObject.GetComponent<Animator>().SetTrigger("OnClickAnimation");
+                //gameObject.GetComponent<Animator>().SetTrigger("OnClickAnimation");
             }
 
-            if (gameObject.GetComponent<ContainerMoveToWaitPoint>() != null &&
+            if (gameObject.GetComponent<ContainerMoveToWaitPoint>() != null && 
                 CollectionManager.Instance.Items.Count == 1)
             {
                 CollectionManager.Instance.Items.Add(gameObject);

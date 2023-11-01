@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Common;
 using ContainersSystem;
 using ItemsSystem;
@@ -12,17 +11,15 @@ namespace CollectionSystem
     {
         [Header("CollectionProperties")]
         [SerializeField] private List<GameObject> items;
-        [SerializeField] private List<GameObject> filtrededItems; 
-        public List<GameObject> Items => items;
-
+        
         [SerializeField] private float moveSpeed = 1f;
+        
         [SerializeField] private int itemCounterForCollection;
-
-        public int ItemCounterForCollection
-        {
-            get => itemCounterForCollection;
-            set => itemCounterForCollection = value;
-        }
+        public int ItemCounterForCollection => itemCounterForCollection;
+        
+        public List<GameObject> Items => items;
+        
+ 
 
         public override void OnAwake()
         {
@@ -57,6 +54,11 @@ namespace CollectionSystem
                 }
             }
         }
+
+        public void RestartCollectionCounter()
+        {
+            itemCounterForCollection = 0;
+        }
     
         private void Сollecting()
         {
@@ -73,7 +75,7 @@ namespace CollectionSystem
             {
                 AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
                 
-                items[1].GetComponent<Animator>().SetTrigger("OnContainerAnimation");
+                //items[1].GetComponent<Animator>().SetTrigger("OnContainerAnimation");
                 
                 items[1].GetComponent<ContainerMoveToWaitPoint>().enabled = false;
                 items[1].GetComponent<ContainerMoveToEndPoint>().enabled = true;

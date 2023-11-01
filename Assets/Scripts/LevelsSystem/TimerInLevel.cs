@@ -10,31 +10,35 @@ namespace LevelsSystem
         
         [SerializeField] private TextMeshProUGUI timerText;
         
-        public float currentSeconds;
-        
-        public bool timerActivation;
+        private float currentSeconds;
+        public float CurrentSeconds
+        {
+            get => currentSeconds;
+            set => currentSeconds = value;
+        }
+
+        private bool timerActivation;
+
+        public bool TimerActivation
+        {
+            get => timerActivation;
+            set => timerActivation = value;
+        }
 
         private void Start()
         {
             timerActivation = false;
-            currentSeconds = 5f;
-            timerText.text = currentSeconds.ToString();
         }
 
         private void Update()
         {
-            if (timerActivation == true)
+            if (timerActivation)
             {
-                Timer();
-            }
-
-            if (timerActivation == false)
-            {
-                currentSeconds = 5;
+                StartTimer();
             }
         }
 
-        private void Timer()
+        private void StartTimer()
         {
             currentSeconds -= Time.deltaTime;
             timerText.text = Mathf.Round(currentSeconds).ToString();

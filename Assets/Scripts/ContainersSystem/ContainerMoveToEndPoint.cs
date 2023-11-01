@@ -12,11 +12,14 @@ namespace ContainersSystem
         private void Update()
         {
             Move();
+            
             if (transform.position == moveToEndPoint.position)
             {
                 Destroy(gameObject);
+                
                 ContainerSpawner.Instance.ContainersDataList.Remove(gameObject.GetComponent<ItemView>());
-                ContainerSpawner.Instance.containerCounter++;
+                ContainerSpawner.Instance.IncreaseCounter();
+                
                 gameObject.GetComponent<ContainerMoveToWaitPoint>().enabled = false;
                 gameObject.GetComponent<ContainerMoveToEndPoint>().enabled = true;
             }

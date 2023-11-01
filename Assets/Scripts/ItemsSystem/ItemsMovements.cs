@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -16,8 +15,7 @@ namespace ItemsSystem
         {
             randomPoint = Random.Range(0, movePoints.Length);
         }
-
-
+        
         private void FixedUpdate()
         {
             MoveToPoints();

@@ -850,6 +850,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &262235383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262235385}
+  - component: {fileID: 262235384}
+  m_Layer: 0
+  m_Name: HealthManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &262235384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262235383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34862df84fe7467e82e66b5cfd46e80c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completedLevelHealth:
+  - {fileID: 273125130}
+  - {fileID: 613225359}
+  - {fileID: 263052630}
+  fullHealth: {fileID: 593917282, guid: 4a8ef3e9a9953014a8042556f4c0b76f, type: 3}
+  emptyHealth: {fileID: -1230988781, guid: 4a8ef3e9a9953014a8042556f4c0b76f, type: 3}
+  maxHealth: 0
+  currentHealth: 0
+--- !u!4 &262235385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262235383}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &263052630
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,7 +959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1028,7 +1080,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1800,7 +1852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2099,7 +2151,7 @@ GameObject:
   - component: {fileID: 644197702}
   - component: {fileID: 644197701}
   m_Layer: 5
-  m_Name: CurrentLevel
+  m_Name: CurrentLevelNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2403,7 +2455,6 @@ MonoBehaviour:
   containerPrefab: {fileID: 1216837745101383415, guid: 7299652e389cf3d468853b52ecb1736e, type: 3}
   spawnPoint: {fileID: 6176898935087669321}
   containersToSpawn: []
-  containerCounter: 0
 --- !u!1 &751293132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,7 +3104,7 @@ MonoBehaviour:
           m_StringArgument: ButtonSound
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1882313282}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelsSystem.CounterStarsOnLevels, Assembly-CSharp
         m_MethodName: UpdateStarsInLevelCompletedWindow
         m_Mode: 1
@@ -3604,7 +3655,7 @@ MonoBehaviour:
           m_StringArgument: ButtonSound
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1882313282}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelsSystem.CounterStarsOnLevels, Assembly-CSharp
         m_MethodName: UpdateStarsInLevelCompletedWindow
         m_Mode: 1
@@ -3616,6 +3667,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!1 &1345366821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1345366822}
+  m_Layer: 0
+  m_Name: LevelsSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1345366822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345366821}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1691775488}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1355978567
 GameObject:
   m_ObjectHideFlags: 0
@@ -4135,7 +4217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelViewPrefab: {fileID: 8578115002280075739, guid: 045f3aaa70b81254cb02106a5557756b, type: 3}
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1345366822}
   levelsToSpawn:
   - {fileID: 11400000, guid: 443a349d016d94348a44c572421692a9, type: 2}
   - {fileID: 11400000, guid: d945253d12a7630449ce64f05c6801b7, type: 2}
@@ -4249,7 +4331,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1345366822}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1699933811
@@ -4507,7 +4590,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
-  filtrededItems: []
   moveSpeed: 10
   itemCounterForCollection: 0
 --- !u!1 &1844392372
@@ -4655,7 +4737,6 @@ GameObject:
   - component: {fileID: 1882313279}
   - component: {fileID: 1882313278}
   - component: {fileID: 1882313280}
-  - component: {fileID: 1882313282}
   - component: {fileID: 1882313281}
   - component: {fileID: 1882313283}
   m_Layer: 0
@@ -4680,9 +4761,10 @@ MonoBehaviour:
   levelCompletedWindow: {fileID: 479340897}
   gameplayWindow: {fileID: 9078123330933634995}
   containerSpawner: {fileID: 707179225}
+  itemsSpawner: {fileID: 933168470}
+  collectionManager: {fileID: 1812543670}
+  healthManager: {fileID: 262235384}
   saveManager: {fileID: 2026772830}
-  nextLevel: {fileID: 0}
-  levelCounter: 1
 --- !u!4 &1882313279
 Transform:
   m_ObjectHideFlags: 0
@@ -4717,12 +4799,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a8930250063bd8e47b4b1bd987acb2d1, type: 2}
   - {fileID: 11400000, guid: 4676e7b09d40d7f4f989ba3f381f9ead, type: 2}
   levelDataList: []
-  levelsWindow: {fileID: 0}
   gameplayWindow: {fileID: 9078123330933634995}
   levelManager: {fileID: 1882313277}
   menuWindow: {fileID: 751293134}
-  completedLevels: []
-  currentLevelView: {fileID: 0}
+  currentLevelNumber: {fileID: 644197701}
 --- !u!114 &1882313281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4735,31 +4815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dadfb489bee741ec91d61028ebbaa137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveManager: {fileID: 2026772830}
   levels: []
-  level: 0
---- !u!114 &1882313282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882313277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34862df84fe7467e82e66b5cfd46e80c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  completedLevelHealth:
-  - {fileID: 273125130}
-  - {fileID: 613225359}
-  - {fileID: 263052630}
-  - {fileID: 0}
-  - {fileID: 0}
-  fullHealth: {fileID: 0}
-  emptyHealth: {fileID: 0}
-  maxHealth: 0
-  currentHealth: 0
+  unlockLevel: 0
 --- !u!114 &1882313283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4773,8 +4830,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1311855785}
-  currentSeconds: 0
-  timerActivation: 0
 --- !u!1 &2026772829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4805,6 +4860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelCompletingManager: {fileID: 1882313278}
+  healthManager: {fileID: 262235384}
 --- !u!4 &2026772831
 Transform:
   m_ObjectHideFlags: 0
@@ -5112,6 +5168,18 @@ MonoBehaviour:
       - m_Target: {fileID: 707179225}
         m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
         m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 266230415}
+        m_TargetAssemblyTypeName: Common.PauseManager, Assembly-CSharp
+        m_MethodName: GoToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5466,6 +5534,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 1355978568}
+  - {fileID: 262235385}
   - {fileID: 2026772831}
   - {fileID: 266230416}
   - {fileID: 86058064}

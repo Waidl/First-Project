@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using LevelsSystem.Levels;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace LevelsSystem
@@ -12,7 +11,11 @@ namespace LevelsSystem
         
         [SerializeField] private List<LevelDataSO> levelsToSpawn;
 
-
+        public override void OnAwake()
+        {
+            Instance = this;
+        }
+        
         private void Start()
         {
             Initialize(levelsToSpawn);
@@ -46,11 +49,6 @@ namespace LevelsSystem
             }
             LevelsManager.Instance.LevelDataList.Clear();
             levelsToSpawn.Clear();
-        }
-
-        public override void OnAwake()
-        {
-            Instance = this;
         }
     }
 }

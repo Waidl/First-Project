@@ -4,7 +4,7 @@ namespace ContainersSystem
 {
     public class ContainerMoveToWaitPoint : MonoBehaviour
     {
-        [SerializeField] public float speed = 4f;
+        [SerializeField] private float speed = 4f;
         
         [SerializeField] private Transform moveToWaitPoint;
 

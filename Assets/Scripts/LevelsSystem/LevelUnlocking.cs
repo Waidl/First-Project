@@ -8,22 +8,17 @@ namespace LevelsSystem
 {
     public class LevelUnlocking : Singletone<LevelUnlocking>
     {
-        [SerializeField] private SaveManager saveManager;
-        
         [SerializeField] private LevelView[] levels;
-        [SerializeField] private int level;
+        [SerializeField] private int unlockLevel;
 
         public override void OnAwake()
         {
             Instance = this;
         }
-
-
         
         private void Start()
         {
             LockedLevels();
-            //PlayerPrefs.DeleteAll();
         }
 
         private void LockedLevels()
@@ -36,13 +31,13 @@ namespace LevelsSystem
                 levels[i].GetComponent<LevelView>().LevelAvatarImage.color = Color.gray;
             }
         }
-        public void UnlockLevel()
+        public void UnlockingLevel()
         {
-            if (LevelsManager.Instance.currentLevelView == null) return;
+            if (LevelsManager.Instance.CurrentLevelView == null) return;
             
-            level = LevelCompletingManager.Instance.LevelCounter;
+            unlockLevel = LevelCompletingManager.Instance.LevelCounter;
             
-            for (int i = 0; i < level; i++)
+            for (int i = 0; i < unlockLevel; i++)
             {
                 levels[i].GetComponent<Button>().enabled = true;
                 levels[i].GetComponent<LevelView>().LevelAvatarImage.color = Color.white;

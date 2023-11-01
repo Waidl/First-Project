@@ -1,5 +1,4 @@
-﻿using AudioManager;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace LevelsSystem.Levels
 {
@@ -9,8 +8,6 @@ namespace LevelsSystem.Levels
         [SerializeField] private Sprite levelAvatarImage;
         [SerializeField] private int levelNumber;
         [SerializeField] private int maxItemsToSpawn;
-        [SerializeField] private string soundOnLevel;
-        [SerializeField] private int numberOfStarsToUnlockLevel;
         [SerializeField] private float timeOnLevel;
         
         public Sprite LevelAvatarImage => levelAvatarImage;
@@ -19,8 +16,5 @@ namespace LevelsSystem.Levels
         public int MaxItemsToSpawn => maxItemsToSpawn;
 
         public float TimeOnLevel => timeOnLevel;
-
-        public string SoundOnLevel => soundOnLevel;
-        public int NumberOfStarsToUnlockLevel => numberOfStarsToUnlockLevel;
     }
 }

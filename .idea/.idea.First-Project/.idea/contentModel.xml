@@ -55,7 +55,7 @@
             <e p="ItemsSpawner.cs" t="Include" />
           </e>
           <e p="LevelsSystem" t="Include">
-            <e p="CounterStarsOnLevels.cs" t="Include" />
+            <e p="HealthManager.cs" t="Include" />
             <e p="LevelCompletingManager.cs" t="Include" />
             <e p="Levels" t="Include">
               <e p="LevelDataSO.cs" t="Include" />

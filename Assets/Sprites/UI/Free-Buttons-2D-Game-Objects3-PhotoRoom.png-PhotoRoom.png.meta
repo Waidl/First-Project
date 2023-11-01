@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 4a8ef3e9a9953014a8042556f4c0b76f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_0
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 766
+        width: 141
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1316e71e29c774a9fa3d28683d8fc0
+      internalID: -451538991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 766
+        width: 189
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1139bd6ac0d7eeb44b402a6568202d37
+      internalID: -1230988781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 637
+        width: 154
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107f80d05fa8b0d49a53fffcf1e5b59e
+      internalID: 593917282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 635
+        width: 157
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49226cd8fb442746b16851b11c1f8e7
+      internalID: -725932821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 632
+        width: 156
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3b114fdcfc9342ab701c192c76b8e
+      internalID: 921285412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_5
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 632
+        width: 154
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b0f8a1d068b1d4a8d81d6488c8c7bd
+      internalID: 1561043366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_6
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 632
+        width: 160
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d83c73490b2ad40848ea42395577ca
+      internalID: 886221078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 450
+        width: 158
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2633fb2695ae4bd4aa7045bf343db4c4
+      internalID: -1857099958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_8
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 449
+        width: 158
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b1ef7a41530514f8fd4be9bef42a2a
+      internalID: 1267676642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_9
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 449
+        width: 157
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bc728bc8bb52b41bd8932497cd612b
+      internalID: -1085060962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_10
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 448
+        width: 156
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be9e9c28b518374faab0927057f7fc1
+      internalID: -512426157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 451
+        width: 159
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c9ccd66e38e94ea0bd7afdc2936d7
+      internalID: 523096932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_12
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 267
+        width: 159
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15690cc6ce212774486aa86faf76c4eb
+      internalID: -1003266273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_13
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 267
+        width: 159
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf3fcc09b3ea9848baa0e80928c37a2
+      internalID: -464950127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_14
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 265
+        width: 160
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5553edbee51e85a4b92c9056269a4032
+      internalID: -1793741542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 266
+        width: 156
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dc948b644f4ad4bab4f74dfd6e34af
+      internalID: -1891679857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_16
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 256
+        width: 160
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab12bb5d74ef00428f1e15474d5e64d
+      internalID: 726574298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 78
+        width: 158
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f90414a117c8948b332469e7a50bb4
+      internalID: -1493384213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_18
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 78
+        width: 159
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfc7b27f39973a47848cca479847810
+      internalID: 1510523559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_19
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 76
+        width: 159
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6c64da314c97e49a791562d5319da0
+      internalID: -1786433232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_20
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 79
+        width: 158
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda8ec49936eef44fbad1c9e35d57993
+      internalID: -1390330107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_21
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 78
+        width: 159
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a56c2ba3796ed6408157b3797b68859
+      internalID: -1812106422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_0: -451538991
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_1: -1230988781
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_10: -512426157
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_11: 523096932
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_12: -1003266273
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_13: -464950127
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_14: -1793741542
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_15: -1891679857
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_16: 726574298
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_17: -1493384213
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_18: 1510523559
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_19: -1786433232
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_2: 593917282
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_20: -1390330107
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_21: -1812106422
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_3: -725932821
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_4: 921285412
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_5: 1561043366
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_6: 886221078
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_7: -1857099958
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_8: 1267676642
+      Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom_9: -1085060962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
