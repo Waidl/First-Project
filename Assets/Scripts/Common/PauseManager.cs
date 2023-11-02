@@ -35,7 +35,6 @@ namespace Common
                 allContainers[i].gameObject.SetActive(false);
             }
             LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = false;
-        
         }
 
         public void ExitOnPause()
@@ -57,6 +56,7 @@ namespace Common
         public void GoToMenu()
         {
             LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = true;
+            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().TimerActivation = false;
         }
     }
 }

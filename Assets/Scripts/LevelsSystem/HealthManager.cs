@@ -16,13 +16,7 @@ namespace LevelsSystem
 
         [SerializeField] private int currentHealth;
         public int CurrentHealth => currentHealth;
-
-        //private LevelView currentLevelCount;
         
-        //private int currentHealthCount;
-        //private int allLevelsCount;
-        
-
         public override void OnAwake()
         {
             Instance = this;
@@ -30,10 +24,11 @@ namespace LevelsSystem
 
         private void Start()
         {
-            maxHealth = 3;
+            maxHealth = 1;
             
             currentHealth = maxHealth;
             
+            maxHealth = PlayerPrefs.GetInt("maxHealth",maxHealth);
             currentHealth = PlayerPrefs.GetInt("currentHealth", currentHealth);
             
             for (int i = 0; i < maxHealth; i++)
@@ -41,13 +36,11 @@ namespace LevelsSystem
                 completedLevelHealth[i].GetComponent<Image>().sprite = fullHealth;
             }
         }
-        
-        /*private void Update()
+
+        public void AddMaxHealth()
         {
-            if (currentLevelCount == null) return;
-            
-            currentLevelCount = LevelsManager.Instance.currentLevelView;
-        }*/
+            maxHealth++;
+        }
         
         public void AddHealthPerLevel()//добавление хп
         {
@@ -79,6 +72,16 @@ namespace LevelsSystem
             for (int i = currentHealth; i < maxHealth; i++)
             {
                 completedLevelHealth[i].GetComponent<Image>().sprite = emptyHealth;
+            }
+
+            for (int i = maxHealth; i < completedLevelHealth.Length; i++)
+            {
+                completedLevelHealth[i].SetActive(false);
+            }
+
+            for (int i = 0; i < maxHealth; i++)
+            {
+                completedLevelHealth[i].SetActive(true);
             }
         }
 

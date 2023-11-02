@@ -15,6 +15,5 @@ MonoBehaviour:
   levelAvatarImage: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
   levelNumber: 7
   maxItemsToSpawn: 7
-  soundOnLevel: GameplaySoundTwo
-  numberOfStarsToUnlockLevel: 4
   timeOnLevel: 8
+  coinsForLevel: 10

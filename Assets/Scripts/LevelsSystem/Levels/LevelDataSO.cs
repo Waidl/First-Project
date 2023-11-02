@@ -9,6 +9,7 @@ namespace LevelsSystem.Levels
         [SerializeField] private int levelNumber;
         [SerializeField] private int maxItemsToSpawn;
         [SerializeField] private float timeOnLevel;
+        [SerializeField] private int coinsForLevel;
         
         public Sprite LevelAvatarImage => levelAvatarImage;
         public int LevelNumber => levelNumber;
@@ -16,5 +17,7 @@ namespace LevelsSystem.Levels
         public int MaxItemsToSpawn => maxItemsToSpawn;
 
         public float TimeOnLevel => timeOnLevel;
+
+        public int CoinsForLevel => coinsForLevel;
     }
 }

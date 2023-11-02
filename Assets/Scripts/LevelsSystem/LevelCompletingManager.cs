@@ -1,8 +1,8 @@
-﻿using CollectionSystem;
+﻿using CoinsSystem;
+using CollectionSystem;
 using Common;
 using ContainersSystem;
 using ItemsSystem;
-using LevelsSystem.Levels;
 using SaveSystem;
 using UnityEngine;
 
@@ -19,13 +19,15 @@ namespace LevelsSystem
         [SerializeField] private CollectionManager collectionManager;
         [SerializeField] private HealthManager healthManager;
         [SerializeField] private SaveManager saveManager;
+        [SerializeField] private PlayerCoins playerCoins;
+
+        [SerializeField] private GameObject coinsPanelOnCompletingLevel;
         
         private int levelCounter = 1;
         public int LevelCounter => levelCounter;
         
         private TimerInLevel timerInLevel;
-
-        //[SerializeField] private LevelView nextLevel;
+        
         public override void OnAwake()
         {
             Instance = this;
@@ -40,26 +42,29 @@ namespace LevelsSystem
 
         private void Update()
         {
-            //nextLevel = LevelsManager.Instance.LevelDataList[levelCounter];
-            
             if(timerInLevel.TimerActivation && timerInLevel.CurrentSeconds <= 0f ||
                containerSpawner.ContainersToSpawn.Count == 
                containerSpawner.ContainerCounter &&
                containerSpawner.ContainersToSpawn.Count != 0)
             {
-                /*if(LevelsManager.Instance.currentLevelView.MaxItemsToSpawn > collectionManager.ItemCounterForCollection)
-                {
-                    healthManager.RemoveHealthPerLevel();
-                }*/
-                
                 if (LevelsManager.Instance.CurrentLevelView.MaxItemsToSpawn ==
                     collectionManager.ItemCounterForCollection)
                 {
                     levelCounter++;
                     healthManager.AddHealthPerLevel();
+                    
+                    if (levelCounter >= LevelsManager.Instance.CompletedLevelsNumbers)
+                    {
+                        playerCoins.AddCoins();
+                        Debug.Log("Dali deneg");
+                        coinsPanelOnCompletingLevel.SetActive(true);
+                    }
                 }
+                
                 else
                 {
+                    Debug.Log("Ne Dali deneg");
+                    coinsPanelOnCompletingLevel.SetActive(false);
                     healthManager.RemoveHealthPerLevel();
                 }
                 

@@ -15,6 +15,7 @@ namespace LevelsSystem.Levels
         [SerializeField] private int maxItemsToSpawn;
         [SerializeField] private float timeOnLevel;
         [SerializeField] private int levelNumber;
+        [SerializeField] private int coinsForLevel;
 
         private GameObject levelsWindow;
         private GameObject gameplayWindow;
@@ -24,7 +25,9 @@ namespace LevelsSystem.Levels
         public int MaxItemsToSpawn => maxItemsToSpawn;
         public float TimeOnLevel => timeOnLevel;
         public int LevelNumber => levelNumber;
-        
+
+        public int CoinsForLevel => coinsForLevel;
+
         private void Start()
         {
             gameplayWindow = LevelsManager.Instance.GameplayWindow;
@@ -37,6 +40,7 @@ namespace LevelsSystem.Levels
             maxItemsToSpawn = levelDataSO.MaxItemsToSpawn;
             timeOnLevel = levelDataSO.TimeOnLevel;
             levelNumber = levelDataSO.LevelNumber;
+            coinsForLevel = levelDataSO.CoinsForLevel;
         }
         
         public void OnStartLevel()

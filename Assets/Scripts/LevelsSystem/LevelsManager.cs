@@ -6,6 +6,7 @@ using ItemsSystem;
 using ItemsSystem.Items;
 using LevelsSystem.Levels;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -34,10 +35,18 @@ namespace LevelsSystem
         
         [SerializeField] private TextMeshProUGUI currentLevelNumber;
         
-        [Header("LevelsProperties")] 
-        //[SerializeField] public List<LevelView> completedLevels;
+        [Header("LevelsProperties")]
         private LevelView currentLevelView;
         public LevelView CurrentLevelView => currentLevelView;
+        
+        private int completedLevelsNumbers = 0;
+
+        public int CompletedLevelsNumbers => completedLevelsNumbers;
+
+        private void Start()
+        {
+            completedLevelsNumbers = PlayerPrefs.GetInt("completedLevels");
+        }
 
         public override void OnAwake()
         {
@@ -51,9 +60,16 @@ namespace LevelsSystem
         
         public void StartGame()
         {
-            currentLevelView.OnStartLevel();
             currentLevelNumber.text = currentLevelView.LevelNumber.ToString();
+            
+            currentLevelView.OnStartLevel();
+
+            AddLevelInCompletedLevelsCounter();
         }
 
+        public void AddLevelInCompletedLevelsCounter()
+        {
+            completedLevelsNumbers++;
+        }
     }
 }

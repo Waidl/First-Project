@@ -6,6 +6,12 @@ namespace ItemsSystem
     public class ItemsMovements : MonoBehaviour
     {
         [SerializeField] private float speed;
+        public float Speed
+        {
+            get => speed;
+            set => speed = value;
+        }
+        
         [SerializeField] private Transform[] movePoints;
 
         private int randomPoint;
