@@ -36,13 +36,12 @@ namespace LevelsSystem
         [SerializeField] private TextMeshProUGUI currentLevelNumber;
         
         [Header("LevelsProperties")]
-        private LevelView currentLevelView;
+        [SerializeField] private LevelView currentLevelView;
+        
+        [SerializeField] private int completedLevelsNumbers;
+        public int CompletedLevelsNumbers => completedLevelsNumbers;
         public LevelView CurrentLevelView => currentLevelView;
         
-        private int completedLevelsNumbers = 0;
-
-        public int CompletedLevelsNumbers => completedLevelsNumbers;
-
         private void Start()
         {
             completedLevelsNumbers = PlayerPrefs.GetInt("completedLevels");

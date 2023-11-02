@@ -10,6 +10,7 @@ namespace SaveSystem
         [SerializeField] private LevelCompletingManager levelCompletingManager;
         [SerializeField] private HealthManager healthManager;
         [SerializeField] private PlayerCoins playerCoins;
+        [SerializeField] private LevelsManager levelsManager;
         
         public override void OnAwake()
         {
@@ -24,6 +25,7 @@ namespace SaveSystem
             PlayerPrefs.SetInt("maxHealth",healthManager.MaxHealth);
             PlayerPrefs.SetInt("currentLevel",levelCompletingManager.LevelCounter);
             PlayerPrefs.SetInt("playerCoins",playerCoins.CurrentPlayerCoins);
+            PlayerPrefs.SetInt("completedLevels",levelsManager.CompletedLevelsNumbers);
         }
 
         private void Awake()
@@ -39,6 +41,7 @@ namespace SaveSystem
             PlayerPrefs.GetInt("currentHealth");
             PlayerPrefs.GetInt("playerCoins");
             PlayerPrefs.GetInt("maxHealth");
+            PlayerPrefs.GetInt("completedLevels");
         }
     }
 }

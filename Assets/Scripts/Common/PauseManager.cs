@@ -7,13 +7,16 @@ using UnityEngine;
 
 namespace Common
 {
-    public class PauseManager : MonoBehaviour
+    public class PauseManager : Singletone<PauseManager>
     {
-
         [SerializeField] private List<ItemView> allItems;
         [SerializeField] private List<ItemView> allContainers;
-
-
+        
+        public override void OnAwake()
+        {
+            Instance = this;
+        }
+        
         private void Update()
         {
             allItems = ItemsSpawner.Instance.ItemsDataList;

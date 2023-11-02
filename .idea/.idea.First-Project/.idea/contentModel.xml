@@ -44,6 +44,7 @@
             <e p="ExitGame.cs" t="Include" />
             <e p="GameConfig.cs" t="Include" />
             <e p="PauseManager.cs" t="Include" />
+            <e p="Tutorial.cs" t="Include" />
           </e>
           <e p="ContainersSystem" t="Include">
             <e p="ContainerMoveToEndPoint.cs" t="Include" />
