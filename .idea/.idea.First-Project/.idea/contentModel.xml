@@ -6,19 +6,13 @@
       <e p="Assets" t="Include">
         <e p="Animations" t="Include" />
         <e p="Fonts" t="Include">
-          <e p="BungeeSpice-Regular" t="Include">
-            <e p="OFL.txt" t="Include" />
-          </e>
-          <e p="Delta_Gothic_One" t="Include">
+          <e p="Chicle" t="Include">
             <e p="OFL.txt" t="Include" />
           </e>
           <e p="Orbitron-VariableFont_wght" t="Include">
             <e p="OFL.txt" t="Include" />
             <e p="README.txt" t="Include" />
             <e p="static" t="Include" />
-          </e>
-          <e p="PermanentMarker-Regular" t="Include">
-            <e p="LICENSE.txt" t="Include" />
           </e>
         </e>
         <e p="Prefabs" t="Include">

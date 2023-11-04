@@ -70,7 +70,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -259023278, guid: 6c177b8411cc52f4195a10a42dc21975, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -148,25 +148,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7ff2184c374213b650dde4ca6d9467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starsOnLevel:
-  - {fileID: 4827726270390555209}
-  - {fileID: 7827158479365547907}
-  - {fileID: 5235379739345608298}
-  - {fileID: 7682030248744966366}
-  - {fileID: 6081458904835889906}
   levelAvatarImage: {fileID: 799671750132633642}
   levelNumberText: {fileID: 7254330803786508034}
   maxItemsToSpawn: 0
-  starsCount: 0
-  soundOnLevel:
-    name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    source: {fileID: 0}
   timeOnLevel: 0
-  numberOfStarsToUnlockLevel: 0
   levelNumber: 0
+  coinsForLevel: 0
 --- !u!1 &1870551403756949727
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1030602663, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
+  m_Sprite: {fileID: -259023278, guid: 6c177b8411cc52f4195a10a42dc21975, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -258,7 +245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &658518723359388437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -712,8 +699,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0443, y: -6.973}
-  m_SizeDelta: {x: 45.7869, y: 39.6361}
+  m_AnchoredPosition: {x: 0.0443, y: 0.9387}
+  m_SizeDelta: {x: 45.7869, y: 55.4594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2531640410545264351
 CanvasRenderer:
@@ -745,8 +732,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 419f0d20d55febc4d8799da98e5565ff, type: 2}
-  m_sharedMaterial: {fileID: -5351347635072411672, guid: 419f0d20d55febc4d8799da98e5565ff, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 179efa6503ee47f48b7812debebc142f, type: 2}
+  m_sharedMaterial: {fileID: -3463280923407672567, guid: 179efa6503ee47f48b7812debebc142f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

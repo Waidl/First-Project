@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253ba725963d4fc1b18960895c37e233, type: 3}
   m_Name: Level_49
   m_EditorClassIdentifier: 
-  levelAvatarImage: {fileID: -1004923713, guid: 5130fdf0b97381e40bbdc6f534f56f34, type: 3}
+  levelAvatarImage: {fileID: -259023278, guid: 6c177b8411cc52f4195a10a42dc21975, type: 3}
   levelNumber: 49
   maxItemsToSpawn: 1
   timeOnLevel: 5

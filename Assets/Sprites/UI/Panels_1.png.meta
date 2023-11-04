@@ -136,12 +136,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F
-        (9)-PhotoRoom (1)_0"
+      name: Panels_1_0
       rect:
         serializedVersion: 2
         x: 128
-        y: 377
+        y: 324
         width: 429
         height: 74
       alignment: 0
@@ -151,19 +150,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f47dfd5c41b752b4d90282df7ee22439
-      internalID: -16022311
+      spriteID: 8ce4a89b48b32ba4c9cfb020f5e5c1f2
+      internalID: -397264641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F
-        (9)-PhotoRoom (1)_1"
+      name: Panels_1_1
       rect:
         serializedVersion: 2
         x: 117
-        y: 270
+        y: 217
         width: 450
         height: 72
       alignment: 0
@@ -173,19 +171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293904e99afd8c04990ab687a55e4382
-      internalID: 1516982460
+      spriteID: 400b2859613dd4e499f78f3dcb47d66b
+      internalID: -1729467141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F
-        (9)-PhotoRoom (1)_2"
+      name: Panels_1_2
       rect:
         serializedVersion: 2
         x: 236
-        y: 177
+        y: 124
         width: 213
         height: 54
       alignment: 0
@@ -195,19 +192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6beaa27a6d41c6f49b329116250d9b82
-      internalID: -1958512785
+      spriteID: c3d2cd84fc171524f915b3f801030dfe
+      internalID: -955967352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F
-        (9)-PhotoRoom (1)_3"
+      name: Panels_1_3
       rect:
         serializedVersion: 2
         x: 121
-        y: 86
+        y: 33
         width: 444
         height: 57
       alignment: 0
@@ -217,30 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ba2fefc1d195314f8b1ad177a19cb7f
-      internalID: -523929481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F
-        (9)-PhotoRoom (1)_4"
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 23
-        width: 185
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76a7bfd2d073b9c4cb532b5fe53ddc8e
-      internalID: 826208708
+      spriteID: c502d38f943f8404295f9dd1d3e16f5a
+      internalID: 137262250
       vertices: []
       indices: 
       edges: []
@@ -256,11 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F (9)-PhotoRoom (1)_0": -16022311
-      "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F (9)-PhotoRoom (1)_1": 1516982460
-      "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F (9)-PhotoRoom (1)_2": -1958512785
-      "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F (9)-PhotoRoom (1)_3": -523929481
-      "\u0411\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F (9)-PhotoRoom (1)_4": 826208708
+      Panels_1_0: -397264641
+      Panels_1_1: -1729467141
+      Panels_1_2: -955967352
+      Panels_1_3: 137262250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

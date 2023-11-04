@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 342
+        width: 358
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14689f4ded322af46924af8c94b9450e
+      internalID: 1335865252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 337
+        width: 390
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958da458cf5743c47854574eefbc43f6
+      internalID: -1970280252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 341
+        width: 363
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47db8e0327bdcb24d8025f52f4717a75
+      internalID: -467754184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 182
+        width: 356
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309e168d9e3c1cb4ba42f36d6b745b15
+      internalID: 658071951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 185
+        width: 358
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d2870763940fc4980b657060da4ce7
+      internalID: 1746696063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_5
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 182
+        width: 351
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0640c0e705426a946a3744954ffd3871
+      internalID: -1216108630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_6
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 214
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dc33294030a424cb8f09f2b33ea181
+      internalID: -1804353713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 33
+        width: 358
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276883fd14112904bbd7b132ebfb01fa
+      internalID: -855501798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_8
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 30
+        width: 362
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573bea6cbec28b14d9d259897258b535
+      internalID: -312015708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_9
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 34
+        width: 359
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1522b12c389d5f449b2e81473cdcb35
+      internalID: 1523059388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +355,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_0: 1335865252
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_1: -1970280252
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_2: -467754184
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_3: 658071951
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_4: 1746696063
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_5: -1216108630
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_6: -1804353713
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_7: -855501798
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_8: -312015708
+      2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom_9: 1523059388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
