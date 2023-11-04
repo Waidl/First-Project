@@ -39,6 +39,10 @@ namespace LevelsSystem
         [SerializeField] private LevelView currentLevelView;
         
         [SerializeField] private int completedLevelsNumbers;
+        
+        [SerializeField] private GameObject levelsWindow;
+
+        public GameObject LevelsWindow => levelsWindow;
         public int CompletedLevelsNumbers => completedLevelsNumbers;
         public LevelView CurrentLevelView => currentLevelView;
         

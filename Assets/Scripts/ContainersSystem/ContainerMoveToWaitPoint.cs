@@ -11,6 +11,10 @@ namespace ContainersSystem
         private void Update()
         {
             Move();
+            if (transform.position == moveToWaitPoint.position)
+            {
+                GetComponent<Animator>().SetBool("IsIdle",true);
+            }
         }
 
         private void Move()

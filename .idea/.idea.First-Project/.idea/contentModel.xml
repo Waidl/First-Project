@@ -83,7 +83,12 @@
         <e p="Sounds" t="Include" />
         <e p="Sprites" t="Include">
           <e p="Backgrounds" t="Include" />
-          <e p="Containers" t="Include" />
+          <e p="Containers" t="Include">
+            <e p="Ninja" t="Include">
+              <e p="Idle" t="Include" />
+              <e p="Run" t="Include" />
+            </e>
+          </e>
           <e p="Items" t="Include" />
           <e p="UI" t="Include" />
         </e>

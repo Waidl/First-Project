@@ -1,4 +1,5 @@
-﻿using ItemsSystem.Items;
+﻿using System;
+using ItemsSystem.Items;
 using UnityEngine;
 
 namespace ContainersSystem
@@ -8,6 +9,11 @@ namespace ContainersSystem
         [SerializeField] private float speed = 4f;
         
         [SerializeField] private Transform moveToEndPoint;
+
+        private void Start()
+        {
+            GetComponent<Animator>().SetBool("IsIdle",false);
+        }
 
         private void Update()
         {
