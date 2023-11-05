@@ -1,4 +1,5 @@
 using System;
+using Common;
 using UnityEngine;
 
 namespace AudioManager
@@ -24,7 +25,7 @@ namespace AudioManager
 
         private void Start()
         {
-            //AudioManager.AudioManager.Instance.Play(GameConfig.MenuSound);
+            Instance.Play(GameConfig.GameplaySound);
         }
 
         private void Initialize()
@@ -35,6 +36,7 @@ namespace AudioManager
                 s.source.clip = s.clip;
                 s.source.volume = s.volume;
                 s.source.pitch = s.pitch;
+                s.source.loop = s.loop;
             }
         }
 

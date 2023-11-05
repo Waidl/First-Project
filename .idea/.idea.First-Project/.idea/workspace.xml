@@ -20,43 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baba9261-e7df-4843-81d4-1b943c101a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/ClickOnItem.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/ClickOnItem.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaItem.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaItem.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaMessage.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaMessage.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/item.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/item.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (11)_1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (11)_1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (12)_1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (12)_1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Remove-bg.ai_1698485909766.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Remove-bg.ai_1698485909766.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Нападавшие-PhotoRoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Нападавшие-PhotoRoom.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/igrovoy-effektyi-zvonkiy-smachnyiy.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/igrovoy-effektyi-zvonkiy-smachnyiy.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/otkryit-novyiy-uroven.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/otkryit-novyiy-uroven.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/vlastnaya-muzyika-v-povelitelnom-tone-25173.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/vlastnaya-muzyika-v-povelitelnom-tone-25173.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/zvuk-byistrogo-vzmaha-mecha (1).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/zvuk-byistrogo-vzmaha-mecha (1).mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Container.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Container.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/OffPause.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OffPause.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/OffTutorial.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OffTutorial.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/OnPause.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OnPause.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/OnTutorial.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OnTutorial.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_3.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_4.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_4.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (11).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (11).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (12).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (12).png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/ExitGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlockingManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/CounterStarsOnLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/StarsCounterOnGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGameManager.cs" />
@@ -88,10 +66,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemMovementToContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemDataSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" />
@@ -114,8 +90,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -192,7 +172,7 @@
       <workItem from="1699139399478" duration="719000" />
       <workItem from="1699178440141" duration="3721000" />
       <workItem from="1699199454605" duration="3380000" />
-      <workItem from="1699208395648" duration="6558000" />
+      <workItem from="1699208395648" duration="9239000" />
     </task>
     <servers />
   </component>

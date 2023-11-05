@@ -14,7 +14,7 @@ namespace ContainersSystem
 
         private void Start()
         {
-            container.SetBool("IsIdle",false);
+            container.SetTrigger("ItemOff");
         }
 
         private void Update()

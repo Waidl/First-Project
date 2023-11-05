@@ -15,8 +15,8 @@ namespace ContainersSystem
             Move();
             if (transform.position == moveToWaitPoint.position)
             {
-                container.SetBool("IsIdle",true);
-                container.SetBool("IsNinjaItem",true);
+                //container.SetBool("IsIdle",true);
+                //container.SetBool("IsNinjaItem",true);
                 container.SetTrigger("ItemOn");
             }
             else

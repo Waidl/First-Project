@@ -73,9 +73,9 @@ namespace CollectionSystem
 
             if (items[0].transform.position == items[1].transform.position)
             {
-                AudioManager.AudioManager.Instance.Play(GameConfig.ButtonSound);
+                AudioManager.AudioManager.Instance.Play(GameConfig.CollectedSound);
                 
-                //items[1].GetComponent<Animator>().SetTrigger("OnContainerAnimation");
+               items[1].GetComponent<Animator>().SetTrigger("ItemOff");
                 
                 items[1].GetComponent<ContainerMoveToWaitPoint>().enabled = false;
                 items[1].GetComponent<ContainerMoveToEndPoint>().enabled = true;
