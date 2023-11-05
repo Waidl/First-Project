@@ -7,30 +7,27 @@ namespace Common
 {
     public class Tutorial : MonoBehaviour
     {
-        [SerializeField] private GameObject firstTutorialTextPanel;
-        [SerializeField] private GameObject monk;
-        [SerializeField] private Button pauseButton;
+        [SerializeField] private Animator tutorial;
+        [SerializeField] private Animator gameplayWindow;
         
         public void OnTutorial()
         {
-            if (LevelsManager.Instance.CompletedLevelsNumbers > 0)
+            if (LevelsManager.Instance.CompletedLevelsNumbers < 2)
             {
-                pauseButton.enabled = false;
-                monk.SetActive(true);
-                firstTutorialTextPanel.SetActive(true);
                 PauseManager.Instance.OnPause();
+                tutorial.SetTrigger("OnTutorial");
             }
             else
             {
-                return;
+                gameplayWindow.SetTrigger("GameWindowOn");
+                LevelsManager.Instance.StartGame();
             }
         }
 
         public void OffTutorial()
         {
-            pauseButton.enabled = true;
             PauseManager.Instance.ExitOnPause();
-            monk.SetActive(false);
+            tutorial.SetTrigger("OffTutorial");
         }
     }
 }

@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using ItemsSystem.Items;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace ItemsSystem
 {
@@ -9,8 +8,7 @@ namespace ItemsSystem
     {
         [Header("ItemsSpawnerProperties")]
         [SerializeField] private ItemView itemViewPrefab;
-        
-        [SerializeField] private Transform[] spawnPoints;
+        [SerializeField] private Transform spawnPoint;
         
         [SerializeField] private  List<ItemDataSO> itemsToSpawn = new List<ItemDataSO>();
         public List<ItemDataSO> ItemsToSpawn => itemsToSpawn;
@@ -38,9 +36,7 @@ namespace ItemsSystem
 
         private void SpawnItems(ItemDataSO itemDataSO)
         {
-            ItemView itemView = Instantiate(itemViewPrefab,
-                spawnPoints[Random.Range(0,spawnPoints.Length)].position,
-                Quaternion.identity);
+            ItemView itemView = Instantiate(itemViewPrefab, spawnPoint.position, Quaternion.identity);
             
             itemView.Initialize(itemDataSO);
             

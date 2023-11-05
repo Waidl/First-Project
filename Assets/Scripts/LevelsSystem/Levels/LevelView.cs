@@ -28,12 +28,6 @@ namespace LevelsSystem.Levels
 
         public int CoinsForLevel => coinsForLevel;
 
-        private void Start()
-        {
-            gameplayWindow = LevelsManager.Instance.GameplayWindow;
-            levelsWindow = LevelsManager.Instance.LevelsWindow;
-        }
-
         public void Initialize(LevelDataSO levelDataSO)
         {
             levelAvatarImage.sprite = levelDataSO.LevelAvatarImage;
@@ -44,14 +38,6 @@ namespace LevelsSystem.Levels
             coinsForLevel = levelDataSO.CoinsForLevel;
         }
         
-        public void OnButtonClick()
-        {
-            levelsWindow.SetActive(false);
-            gameplayWindow.SetActive(true);
-            FindObjectOfType<AudioManager.AudioManager>().Play("Click");
-            OnStartLevel();
-            
-        }
         public void OnStartLevel()
         {
             TimerInLevel.Instance.CurrentSeconds = TimeOnLevel;

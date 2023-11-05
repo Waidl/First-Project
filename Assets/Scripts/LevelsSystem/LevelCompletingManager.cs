@@ -13,8 +13,7 @@ namespace LevelsSystem
     {
         [Header("ScoreLevelProperties")]
         [SerializeField] private GameObject levelCompletedWindow;
-        [SerializeField] private GameObject gameplayWindow;
-        
+
         [SerializeField] private ContainerSpawner containerSpawner;
         [SerializeField] private ItemsSpawner itemsSpawner;
         [SerializeField] private CollectionManager collectionManager;
@@ -48,8 +47,6 @@ namespace LevelsSystem
 
         private void Update()
         {
-            completedLevel.text = completedLevelText;
-            
             if(timerInLevel.TimerActivation && timerInLevel.CurrentSeconds <= 0f ||
                containerSpawner.ContainersToSpawn.Count == 
                containerSpawner.ContainerCounter &&
@@ -73,6 +70,7 @@ namespace LevelsSystem
                     completedLevelText = "Level Lose !";
                 }
                 
+                completedLevel.text = completedLevelText;
                 OnCompletingTheLevel();
             }
 
@@ -100,9 +98,9 @@ namespace LevelsSystem
             
             collectionManager.Items.Clear();
             collectionManager.RestartCollectionCounter();
-            
-            gameplayWindow.SetActive(false);
-            levelCompletedWindow.SetActive(true);
+
+            LevelsManager.Instance.LevelCompletedWindow.SetTrigger("CompletedLevelWindowOn");
+            LevelsManager.Instance.GameplayWindow.SetTrigger("GameWindowOff");
         }
     }
 }

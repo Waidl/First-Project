@@ -37,6 +37,7 @@
           <e p="Common" t="Include">
             <e p="ExitGame.cs" t="Include" />
             <e p="GameConfig.cs" t="Include" />
+            <e p="HealthManager.cs" t="Include" />
             <e p="PauseManager.cs" t="Include" />
             <e p="Tutorial.cs" t="Include" />
           </e>
@@ -54,7 +55,6 @@
             <e p="ItemsSpawner.cs" t="Include" />
           </e>
           <e p="LevelsSystem" t="Include">
-            <e p="HealthManager.cs" t="Include" />
             <e p="LevelCompletingManager.cs" t="Include" />
             <e p="Levels" t="Include">
               <e p="LevelDataSO.cs" t="Include" />

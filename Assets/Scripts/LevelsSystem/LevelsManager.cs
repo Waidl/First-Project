@@ -3,7 +3,6 @@ using ItemsSystem.Items;
 using LevelsSystem.Levels;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace LevelsSystem
 {
@@ -18,16 +17,14 @@ namespace LevelsSystem
         
         private List<GameObject> allLevelDataList = new List<GameObject>();
         public List<GameObject> AllLevelDataList => allLevelDataList;
-        
-        [Header("GameWindowSettings")]
-        [SerializeField] private GameObject gameplayWindow;
-        public GameObject GameplayWindow => gameplayWindow;
-        
-        [SerializeField] private GameObject levelManager;
-        public GameObject LevelManager => levelManager;
 
-        [SerializeField] private Animator menuWindow;
+        [Header("GameWindowSettings")]
+        [SerializeField] private Animator gameplayWindow;
+        public Animator GameplayWindow => gameplayWindow;
         
+        [SerializeField] private Animator levelCompletedWindow;
+        public Animator LevelCompletedWindow => levelCompletedWindow;
+
         [SerializeField] private TextMeshProUGUI currentLevelNumber;
         
         [Header("LevelsProperties")]
@@ -36,18 +33,7 @@ namespace LevelsSystem
         
         [SerializeField] private int completedLevelsNumbers;
         public int CompletedLevelsNumbers => completedLevelsNumbers;
-        
-        [SerializeField] private GameObject levelsWindow;
-        public GameObject LevelsWindow => levelsWindow;
-        
-        [SerializeField] private Sprite[] backgrounds;
-        
-        [SerializeField] private Image gameplayBackground;
 
-        
-        
-        
-        
         private void Start()
         {
             completedLevelsNumbers = PlayerPrefs.GetInt("completedLevels");
@@ -61,7 +47,6 @@ namespace LevelsSystem
         private void Update()
         {
             currentLevelView = levelDataList[LevelCompletingManager.Instance.LevelCounter-1];
-            //LevelBackground();
         }
         
         public void StartGame()
@@ -69,6 +54,8 @@ namespace LevelsSystem
             currentLevelNumber.text = currentLevelView.LevelNumber.ToString();
             
             currentLevelView.OnStartLevel();
+            
+            gameplayWindow.SetTrigger("GameWindowOn");
 
             AddLevelInCompletedLevelsCounter();
         }
@@ -76,14 +63,6 @@ namespace LevelsSystem
         public void AddLevelInCompletedLevelsCounter()
         {
             completedLevelsNumbers++;
-        }
-
-        private void LevelBackground()
-        {
-            if (currentLevelView.LevelDataSO.LevelNumber / 2 == 0)
-            {
-                gameplayBackground.sprite = backgrounds[1];
-            }
         }
     }
 }

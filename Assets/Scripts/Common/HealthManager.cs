@@ -21,7 +21,7 @@ namespace LevelsSystem
 
         private void Start()
         {
-            maxHealth = 2;
+            maxHealth = 1;
             
             currentHealth = maxHealth;
             

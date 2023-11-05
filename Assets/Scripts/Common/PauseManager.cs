@@ -37,7 +37,8 @@ namespace Common
                 allContainers[i].GetComponent<ContainerMoveToWaitPoint>().enabled = false;
                 allContainers[i].gameObject.SetActive(false);
             }
-            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = false;
+
+            TimerInLevel.Instance.enabled = false;
         }
 
         public void ExitOnPause()
@@ -53,13 +54,13 @@ namespace Common
                 allContainers[i].GetComponent<ContainerMoveToWaitPoint>().enabled = true;
                 allContainers[i].gameObject.SetActive(true);
             }
-            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = true;
+            TimerInLevel.Instance.enabled = true;
         }
 
         public void GoToMenu()
         {
-            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().enabled = true;
-            LevelsManager.Instance.LevelManager.GetComponent<TimerInLevel>().TimerActivation = false;
+            TimerInLevel.Instance.enabled = true;
+            TimerInLevel.Instance.TimerActivation = false;
         }
     }
 }
