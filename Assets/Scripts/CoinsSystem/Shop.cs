@@ -14,14 +14,14 @@ namespace CoinsSystem
         {
             priseText.text = prise.ToString();
             
-            CurrenPriseOnHealth();
+            CurrentPriseOnHealth();
         }
 
-        private void CurrenPriseOnHealth()
+        private void CurrentPriseOnHealth()
         {
             if (HealthManager.Instance.MaxHealth == 1)
             {
-                prise = 100;
+                prise = 10;
             }
             if (HealthManager.Instance.MaxHealth == 2)
             {

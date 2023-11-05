@@ -27,8 +27,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.42857146}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8106379227256302427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -73,12 +73,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 9d9c85dc4f26f8c4ab2c869f6fede884, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 2.6, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 1804440788551682980}
   - component: {fileID: 3521164504772253136}
   - component: {fileID: 3879028673872308481}
-  - component: {fileID: 9088631470121589899}
+  - component: {fileID: 1767329885600827379}
   m_Layer: 0
   m_Name: item
   m_TagString: Untagged
@@ -116,7 +116,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.04, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1126165995133991957}
@@ -137,18 +137,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   movePoints:
-  - {fileID: 5866296772067188786, guid: 51edbc55a31f0b24ea5284bf41f947f8, type: 3}
-  - {fileID: 4082225721610952386, guid: f1b2e5eca4f3f194386a5d2ac37c00a4, type: 3}
-  - {fileID: 8938708512083085289, guid: 897d13a0e84502a4a96ae57b38d46349, type: 3}
-  - {fileID: 7891966522467204250, guid: 0653b00788a87594b929e261ec550d8a, type: 3}
-  - {fileID: 8629326320567388782, guid: bec50399da7e26f4b849f35a31bf9afb, type: 3}
-  - {fileID: 8236389454769548680, guid: 7879efbce7d6ac7409b734950acc655b, type: 3}
-  - {fileID: 1859785772967549845, guid: 94ba692eb4589dc4fa939d536d6ea425, type: 3}
-  - {fileID: 3144576930498630413, guid: 13ab2f11073f2f942b778da3611543fe, type: 3}
-  - {fileID: 403093309959500372, guid: 7821e44a422226647b79b13c5dda5dfa, type: 3}
-  - {fileID: 3432139796773306110, guid: ec02eab05f3a888468125724052b4fcf, type: 3}
-  - {fileID: 4234013572464898731, guid: 495d9c6de2b373d44b670cf4fce372b7, type: 3}
-  - {fileID: 8764229489104523670, guid: e2cf263dfc2c07e4b88b94464b042790, type: 3}
+  - {fileID: 7873394203740769226, guid: 51edbc55a31f0b24ea5284bf41f947f8, type: 3}
+  - {fileID: 7188343372061795487, guid: f1b2e5eca4f3f194386a5d2ac37c00a4, type: 3}
+  - {fileID: 7500885737913721078, guid: 897d13a0e84502a4a96ae57b38d46349, type: 3}
+  - {fileID: 706760935288568092, guid: 0653b00788a87594b929e261ec550d8a, type: 3}
+  - {fileID: 6144454733847800358, guid: bec50399da7e26f4b849f35a31bf9afb, type: 3}
+  - {fileID: 4304068751953667395, guid: 7879efbce7d6ac7409b734950acc655b, type: 3}
+  - {fileID: 8652833524154644352, guid: 94ba692eb4589dc4fa939d536d6ea425, type: 3}
+  - {fileID: 6588503241849329157, guid: 13ab2f11073f2f942b778da3611543fe, type: 3}
+  - {fileID: 4658455232471688150, guid: 7821e44a422226647b79b13c5dda5dfa, type: 3}
+  - {fileID: 6879616336465801423, guid: ec02eab05f3a888468125724052b4fcf, type: 3}
+  - {fileID: 1900900517015226333, guid: 495d9c6de2b373d44b670cf4fce372b7, type: 3}
+  - {fileID: 8151202355339895664, guid: e2cf263dfc2c07e4b88b94464b042790, type: 3}
 --- !u!114 &2955581720478429745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +209,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 20, y: 20}
+  m_Size: {x: 2.2, y: 1.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -248,8 +248,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!58 &9088631470121589899
-CircleCollider2D:
+--- !u!61 &1767329885600827379
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -277,12 +277,22 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.10569166, y: 0}
+  m_Offset: {x: 0.04591632, y: 0.044225097}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.2, y: 1.04}
+    newSize: {x: 2.2, y: 1.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.6056918
+  m_Size: {x: 2.1431108, y: 2.7162783}
+  m_EdgeRadius: 0
 --- !u!1001 &2665894939742565491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -294,6 +304,10 @@ PrefabInstance:
     - target: {fileID: 2098056331807435780, guid: 7df4aed483fff8246a103cb7602bcedf, type: 3}
       propertyPath: m_Name
       value: Particle System (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098056331807435780, guid: 7df4aed483fff8246a103cb7602bcedf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3402630604967414923, guid: 7df4aed483fff8246a103cb7602bcedf, type: 3}
       propertyPath: looping

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7662265570583859061
+--- !u!1 &8137038277426229021
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 403093309959500372}
+  - component: {fileID: 4658455232471688150}
   m_Layer: 0
   m_Name: Point (8)
   m_TagString: Untagged
@@ -16,17 +16,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &403093309959500372
+--- !u!4 &4658455232471688150
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7662265570583859061}
+  m_GameObject: {fileID: 8137038277426229021}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.76, y: 0.5264, z: 0}
-  m_LocalScale: {x: 1, y: 0.8684, z: 1}
+  m_LocalPosition: {x: -1.9725, y: 0.1475, z: 0}
+  m_LocalScale: {x: 1.1952279, y: 0.6945123, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

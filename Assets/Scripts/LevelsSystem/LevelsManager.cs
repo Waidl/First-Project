@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Common;
-using ContainersSystem;
-using ItemsSystem;
+﻿using System.Collections.Generic;
 using ItemsSystem.Items;
 using LevelsSystem.Levels;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using Random = UnityEngine.Random;
+using UnityEngine.UI;
 
 namespace LevelsSystem
 {
@@ -41,6 +36,9 @@ namespace LevelsSystem
         [SerializeField] private int completedLevelsNumbers;
         
         [SerializeField] private GameObject levelsWindow;
+        
+        [SerializeField] private Sprite[] backgrounds;
+        [SerializeField] private Image gameplayBackground;
 
         public GameObject LevelsWindow => levelsWindow;
         public int CompletedLevelsNumbers => completedLevelsNumbers;
@@ -59,6 +57,7 @@ namespace LevelsSystem
         private void Update()
         {
             currentLevelView = levelDataList[LevelCompletingManager.Instance.LevelCounter-1];
+            //LevelBackground();
         }
         
         public void StartGame()
@@ -73,6 +72,16 @@ namespace LevelsSystem
         public void AddLevelInCompletedLevelsCounter()
         {
             completedLevelsNumbers++;
+        }
+
+        private void LevelBackground()
+        {
+            if (currentLevelView.LevelDataSO.LevelNumber == null) return;
+            
+            if (currentLevelView.LevelDataSO.LevelNumber / 2 == 0)
+            {
+                gameplayBackground.sprite = backgrounds[1];
+            }
         }
     }
 }

@@ -52,13 +52,8 @@ namespace LevelsSystem
                 {
                     levelCounter++;
                     healthManager.AddHealthPerLevel();
-                    
-                    if (levelCounter >= LevelsManager.Instance.CompletedLevelsNumbers)
-                    {
-                        playerCoins.AddCoins();
-                        Debug.Log("Dali deneg");
-                        coinsPanelOnCompletingLevel.SetActive(true);
-                    }
+                    playerCoins.AddCoins();
+                    coinsPanelOnCompletingLevel.SetActive(true);
                 }
                 
                 else
