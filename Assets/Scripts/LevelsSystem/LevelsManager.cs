@@ -32,17 +32,21 @@ namespace LevelsSystem
         
         [Header("LevelsProperties")]
         [SerializeField] private LevelView currentLevelView;
+        public LevelView CurrentLevelView => currentLevelView;
         
         [SerializeField] private int completedLevelsNumbers;
+        public int CompletedLevelsNumbers => completedLevelsNumbers;
         
         [SerializeField] private GameObject levelsWindow;
+        public GameObject LevelsWindow => levelsWindow;
         
         [SerializeField] private Sprite[] backgrounds;
+        
         [SerializeField] private Image gameplayBackground;
 
-        public GameObject LevelsWindow => levelsWindow;
-        public int CompletedLevelsNumbers => completedLevelsNumbers;
-        public LevelView CurrentLevelView => currentLevelView;
+        
+        
+        
         
         private void Start()
         {
@@ -76,8 +80,6 @@ namespace LevelsSystem
 
         private void LevelBackground()
         {
-            if (currentLevelView.LevelDataSO.LevelNumber == null) return;
-            
             if (currentLevelView.LevelDataSO.LevelNumber / 2 == 0)
             {
                 gameplayBackground.sprite = backgrounds[1];

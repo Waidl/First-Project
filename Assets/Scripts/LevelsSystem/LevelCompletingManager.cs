@@ -4,6 +4,7 @@ using Common;
 using ContainersSystem;
 using ItemsSystem;
 using SaveSystem;
+using TMPro;
 using UnityEngine;
 
 namespace LevelsSystem
@@ -23,6 +24,9 @@ namespace LevelsSystem
 
         [SerializeField] private GameObject coinsPanelOnCompletingLevel;
         
+        [SerializeField] private TextMeshProUGUI completedLevel;
+        private string completedLevelText;
+        
         private int levelCounter = 1;
         public int LevelCounter => levelCounter;
         
@@ -38,10 +42,14 @@ namespace LevelsSystem
             levelCounter = PlayerPrefs.GetInt("currentLevel",levelCounter);
             
             timerInLevel = GetComponent<TimerInLevel>();
+
+            completedLevel.text = completedLevelText;
         }
 
         private void Update()
         {
+            completedLevel.text = completedLevelText;
+            
             if(timerInLevel.TimerActivation && timerInLevel.CurrentSeconds <= 0f ||
                containerSpawner.ContainersToSpawn.Count == 
                containerSpawner.ContainerCounter &&
@@ -54,13 +62,15 @@ namespace LevelsSystem
                     healthManager.AddHealthPerLevel();
                     playerCoins.AddCoins();
                     coinsPanelOnCompletingLevel.SetActive(true);
+                    
+                    completedLevelText = "Level Completed !";
                 }
                 
                 else
                 {
-                    Debug.Log("Ne Dali deneg");
                     coinsPanelOnCompletingLevel.SetActive(false);
                     healthManager.RemoveHealthPerLevel();
+                    completedLevelText = "Level Lose !";
                 }
                 
                 OnCompletingTheLevel();

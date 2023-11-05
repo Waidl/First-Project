@@ -20,157 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baba9261-e7df-4843-81d4-1b943c101a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_17.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_17.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_18.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_18.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_19.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_19.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_20.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_20.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_21.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_21.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_22.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_22.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_23.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_23.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_24.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_24.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_25.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_25.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_26.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_26.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_27.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_27.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_28.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_28.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_29.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_29.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_30.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_30.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SO/Items/item_9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_010.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_011.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_012.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_013.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_014.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_015.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_016.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_017.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_018.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_019.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_020.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_021.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_022.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_023.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_024.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_025.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_026.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_027.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_028.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_029.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_029.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_030.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_030.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_08.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Items/item_09.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Coin.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/monk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/monk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameNameOn.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameNameOn.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameNameText.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameNameText.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MenuButtonsOn.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MenuButtonsOn.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MenuWindow.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MenuWindow.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/photo_5348345954656440429_y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/photo_5348345954656440429_y.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Container.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Container.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (10).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (10).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (11).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (11).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (2).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (2).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (3).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (3).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (4).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (4).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (5).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (5).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (6).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (6).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (7).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (7).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (8).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (8).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (9).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (9).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Items/item_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Items/item_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Items/item_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Items/item_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/Items/item_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Items/item_5.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/Shop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/Shop.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Tutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Tutorial.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/Coin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/Coin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/ItemsSet_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/ItemsSet_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/Без названия (9)-PhotoRoom (7).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/Без названия (9)-PhotoRoom (7).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/Без названия (9)-PhotoRoom (8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/Без названия (9)-PhotoRoom (8).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,11 +90,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Tutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/Shop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Tutorial.cs" />
       </list>
     </option>
   </component>
@@ -303,6 +169,7 @@
       <workItem from="1699096048016" duration="5631000" />
       <workItem from="1699135443581" duration="2203000" />
       <workItem from="1699139399478" duration="719000" />
+      <workItem from="1699178440141" duration="3721000" />
     </task>
     <servers />
   </component>
@@ -336,10 +203,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1698868072681" />
-    <state x="100" y="100" width="1080" height="472" key="VCS.FileHistoryDialog" timestamp="1697570489792">
+    <state x="100" y="100" width="1080" height="472" key="VCS.FileHistoryDialog" timestamp="1699191399770">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="100" y="100" width="1080" height="472" key="VCS.FileHistoryDialog/0.0.1280.672@0.0.1280.672" timestamp="1697570489792" />
+    <state x="100" y="100" width="1080" height="472" key="VCS.FileHistoryDialog/0.0.1280.672@0.0.1280.672" timestamp="1699191399770" />
     <state x="297" y="149" key="run.anything.popup" timestamp="1698941966834">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

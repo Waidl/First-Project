@@ -8,9 +8,6 @@ namespace LevelsSystem
         [Header("Health Properties")]
         [SerializeField] private GameObject[] completedLevelHealth;
 
-        //[SerializeField] private Sprite fullHealth;
-        //[SerializeField] private Sprite emptyHealth;
-
         [SerializeField] private int maxHealth;
         public int MaxHealth => maxHealth;
 
@@ -24,7 +21,7 @@ namespace LevelsSystem
 
         private void Start()
         {
-            maxHealth = 3;
+            maxHealth = 2;
             
             currentHealth = maxHealth;
             
@@ -33,7 +30,7 @@ namespace LevelsSystem
             
             for (int i = 0; i < maxHealth; i++)
             {
-                completedLevelHealth[i].GetComponent<Image>().enabled = true;
+                completedLevelHealth[i].SetActive(true);
             }
         }
 
@@ -66,14 +63,16 @@ namespace LevelsSystem
         {
             for (int i = 0; i < currentHealth; i++)
             {
-                completedLevelHealth[i].GetComponent<Image>().enabled = true;
+                completedLevelHealth[i].SetActive(true);
+                completedLevelHealth[i].GetComponent<Image>().color = Color.white;
             }
 
             for (int i = currentHealth; i < maxHealth; i++)
             {
-                completedLevelHealth[i].GetComponent<Image>().enabled = false;
+                completedLevelHealth[i].GetComponent<Image>().color = Color.gray;
             }
-
+            
+                // закрыть спрайты меньше макс хп
             for (int i = maxHealth; i < completedLevelHealth.Length; i++)
             {
                 completedLevelHealth[i].SetActive(false);
@@ -87,6 +86,10 @@ namespace LevelsSystem
 
         public void ResetHealth()
         {
+            for (int i = 0; i < maxHealth; i++)
+            {
+                completedLevelHealth[i].GetComponent<Image>().color = Color.white;
+            }
             currentHealth = maxHealth;
         }
     }
