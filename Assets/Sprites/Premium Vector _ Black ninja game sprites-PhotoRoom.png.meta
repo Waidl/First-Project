@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: d3b61eef38c25f8418900ec5f58c646a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 350
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cecb17eeec65df4aa1a0f91420eaeaf
+      internalID: 1125189201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 350
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e81a7a7665efbb4a97f3e98365905fc
+      internalID: 1245506506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 350
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2b0d9c0e1a57a48b25f812b489731b
+      internalID: 1707108614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 350
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847c55b9166353d4888cb3c07c1a584d
+      internalID: 357059678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 350
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908f9761ffcccbc47808f9f49a444c4e
+      internalID: 1098342248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 258
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0636d706f89e39a45a4af993167ddaff
+      internalID: -1769328977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 257
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cde4052316b6649b0bdec7c17d1ab6
+      internalID: -2016754805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 257
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364b5577b3a97d54ea817d209b447abd
+      internalID: -1309915645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 258
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46d400fa8edf05469a942f00bd5db6b
+      internalID: -1411625322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 257
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab525b241d9cbab428d6c487dad61c22
+      internalID: 1522879916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premium Vector _ Black ninja game sprites-PhotoRoom_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 257
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbafe7bb9b8c864a8e4fe0098c64695
+      internalID: 692722632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Premium Vector _ Black ninja game sprites-PhotoRoom_0: 1125189201
+      Premium Vector _ Black ninja game sprites-PhotoRoom_1: 1245506506
+      Premium Vector _ Black ninja game sprites-PhotoRoom_10: -1769328977
+      Premium Vector _ Black ninja game sprites-PhotoRoom_11: -2016754805
+      Premium Vector _ Black ninja game sprites-PhotoRoom_12: -1309915645
+      Premium Vector _ Black ninja game sprites-PhotoRoom_13: -1411625322
+      Premium Vector _ Black ninja game sprites-PhotoRoom_14: 1522879916
+      Premium Vector _ Black ninja game sprites-PhotoRoom_15: 692722632
+      Premium Vector _ Black ninja game sprites-PhotoRoom_16: -1535663084
+      Premium Vector _ Black ninja game sprites-PhotoRoom_17: 498748406
+      Premium Vector _ Black ninja game sprites-PhotoRoom_18: -1011927593
+      Premium Vector _ Black ninja game sprites-PhotoRoom_19: 351774085
+      Premium Vector _ Black ninja game sprites-PhotoRoom_2: 1707108614
+      Premium Vector _ Black ninja game sprites-PhotoRoom_20: 765974169
+      Premium Vector _ Black ninja game sprites-PhotoRoom_21: -341807361
+      Premium Vector _ Black ninja game sprites-PhotoRoom_22: -1264347186
+      Premium Vector _ Black ninja game sprites-PhotoRoom_23: -675489539
+      Premium Vector _ Black ninja game sprites-PhotoRoom_24: 1415483526
+      Premium Vector _ Black ninja game sprites-PhotoRoom_25: -625543279
+      Premium Vector _ Black ninja game sprites-PhotoRoom_26: 1056747000
+      Premium Vector _ Black ninja game sprites-PhotoRoom_27: 2094252348
+      Premium Vector _ Black ninja game sprites-PhotoRoom_28: -1165967599
+      Premium Vector _ Black ninja game sprites-PhotoRoom_29: -2038563518
+      Premium Vector _ Black ninja game sprites-PhotoRoom_3: 357059678
+      Premium Vector _ Black ninja game sprites-PhotoRoom_30: 936712616
+      Premium Vector _ Black ninja game sprites-PhotoRoom_31: 388674215
+      Premium Vector _ Black ninja game sprites-PhotoRoom_32: -152379261
+      Premium Vector _ Black ninja game sprites-PhotoRoom_33: -1133726459
+      Premium Vector _ Black ninja game sprites-PhotoRoom_34: 1707539567
+      Premium Vector _ Black ninja game sprites-PhotoRoom_35: 454154651
+      Premium Vector _ Black ninja game sprites-PhotoRoom_36: -159108049
+      Premium Vector _ Black ninja game sprites-PhotoRoom_37: 1855382988
+      Premium Vector _ Black ninja game sprites-PhotoRoom_4: 1098342248
+      Premium Vector _ Black ninja game sprites-PhotoRoom_5: -1183404865
+      Premium Vector _ Black ninja game sprites-PhotoRoom_6: -16894093
+      Premium Vector _ Black ninja game sprites-PhotoRoom_7: -1884181357
+      Premium Vector _ Black ninja game sprites-PhotoRoom_8: 1023392703
+      Premium Vector _ Black ninja game sprites-PhotoRoom_9: 1467328274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

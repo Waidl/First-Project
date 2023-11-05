@@ -8,12 +8,23 @@ namespace ContainersSystem
         
         [SerializeField] private Transform moveToWaitPoint;
 
+        [SerializeField] private Animator container;
+
         private void Update()
         {
             Move();
             if (transform.position == moveToWaitPoint.position)
             {
-                GetComponent<Animator>().SetBool("IsIdle",true);
+                container.SetBool("IsIdle",true);
+                container.SetBool("IsNinjaItem",true);
+                container.SetTrigger("ItemOn");
+            }
+            else
+            {
+                container.SetBool("IsIdle",false);
+                container.SetBool("IsIdle",false);
+                container.SetBool("IsNinjaItem",false);
+                //container.SetBool("IsNinjaMessage",false);
             }
         }
 

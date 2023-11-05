@@ -9,10 +9,12 @@ namespace ContainersSystem
         [SerializeField] private float speed = 4f;
         
         [SerializeField] private Transform moveToEndPoint;
+        [SerializeField] private Animator container;
+        
 
         private void Start()
         {
-            GetComponent<Animator>().SetBool("IsIdle",false);
+            container.SetBool("IsIdle",false);
         }
 
         private void Update()

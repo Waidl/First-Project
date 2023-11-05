@@ -20,58 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baba9261-e7df-4843-81d4-1b943c101a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/CompletedLevelWindow.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/CompletedLevelWindow.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindow.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindow.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOff.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOff.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOn.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOn.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Item.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Item.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/LevelCompletedWindowOff.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/LevelCompletedWindowOff.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/LevelCompletedWindowOn.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/LevelCompletedWindowOn.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OffPause.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OffPause.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OffTutorial.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OffTutorial.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OnPause.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OnPause.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OnTutorial.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/OnTutorial.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PauseMenuWindow.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PauseMenuWindow.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/ShopButtonsOff.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/ShopButtonsOff.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Tutorial.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Tutorial.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_3.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_3.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_4.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_4.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/item.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/item.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/ClickOnItem.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/ClickOnItem.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaItem.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaItem.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaMessage.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaMessage.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/item.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/item.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (11)_1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (11)_1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (12)_1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Без названия (9)-PhotoRoom (12)_1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Remove-bg.ai_1698485909766.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Remove-bg.ai_1698485909766.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Нападавшие-PhotoRoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Нападавшие-PhotoRoom.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameNameText.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GameNameText.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShopButtonsOn.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ShopButtonsOn.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShopWindow.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ShopWindow.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Container.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Container.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/OffPause.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OffPause.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/OffTutorial.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OffTutorial.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/OnPause.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OnPause.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/OnTutorial.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/OnTutorial.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_3.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_4.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TutorialPanel_4.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Tutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Tutorial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/HealthManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/HealthManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (11).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (11).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (12).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (12).png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/CounterStarsOnLevels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/Items/ItemDataSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" />
@@ -120,8 +104,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/PlayerCoins.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/HealthManager.cs" />
@@ -131,6 +113,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
       </list>
     </option>
   </component>
@@ -207,7 +192,7 @@
       <workItem from="1699139399478" duration="719000" />
       <workItem from="1699178440141" duration="3721000" />
       <workItem from="1699199454605" duration="3380000" />
-      <workItem from="1699208395648" duration="2424000" />
+      <workItem from="1699208395648" duration="6558000" />
     </task>
     <servers />
   </component>

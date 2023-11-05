@@ -11,7 +11,7 @@ namespace CollectionSystem
             if (gameObject.GetComponent<ItemsMovements>() != null && CollectionManager.Instance.Items.Count == 0)
             {
                 CollectionManager.Instance.Items.Add(gameObject);
-                //gameObject.GetComponent<Animator>().SetTrigger("OnClickAnimation");
+                gameObject.GetComponent<Animator>().SetTrigger("ClickItem");
             }
 
             if (gameObject.GetComponent<ContainerMoveToWaitPoint>() != null && 
