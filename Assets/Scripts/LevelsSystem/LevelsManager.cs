@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Common;
 using ItemsSystem.Items;
 using LevelsSystem.Levels;
 using TMPro;
@@ -53,11 +54,13 @@ namespace LevelsSystem
         {
             currentLevelNumber.text = currentLevelView.LevelNumber.ToString();
             
+            AddLevelInCompletedLevelsCounter();
+            
             currentLevelView.OnStartLevel();
             
             gameplayWindow.SetTrigger("GameWindowOn");
-
-            AddLevelInCompletedLevelsCounter();
+            
+            Enemy.Enemy.Instance.OnEnemy();
         }
 
         public void AddLevelInCompletedLevelsCounter()

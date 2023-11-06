@@ -5,12 +5,13 @@ namespace LevelsSystem.Levels
     [CreateAssetMenu(fileName = "Level", menuName = "ScriptableObjects/Level", order = 1)]
     public class LevelDataSO : ScriptableObject
     {
+        [Header("LevelProperties")]
         [SerializeField] private Sprite levelAvatarImage;
         [SerializeField] private int levelNumber;
         [SerializeField] private int maxItemsToSpawn;
         [SerializeField] private float timeOnLevel;
         [SerializeField] private int coinsForLevel;
-        
+
         public Sprite LevelAvatarImage => levelAvatarImage;
         public int LevelNumber => levelNumber;
         

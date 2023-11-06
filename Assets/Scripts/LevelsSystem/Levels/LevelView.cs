@@ -17,17 +17,16 @@ namespace LevelsSystem.Levels
         [SerializeField] private int levelNumber;
         [SerializeField] private int coinsForLevel;
 
-        private GameObject levelsWindow;
-        private GameObject gameplayWindow;
-        
         public LevelDataSO LevelDataSO { get; private set; }
         public Image LevelAvatarImage => levelAvatarImage;
         public int MaxItemsToSpawn => maxItemsToSpawn;
         public float TimeOnLevel => timeOnLevel;
         public int LevelNumber => levelNumber;
-
         public int CoinsForLevel => coinsForLevel;
 
+        private GameObject levelsWindow;
+        private GameObject gameplayWindow;
+        
         public void Initialize(LevelDataSO levelDataSO)
         {
             levelAvatarImage.sprite = levelDataSO.LevelAvatarImage;

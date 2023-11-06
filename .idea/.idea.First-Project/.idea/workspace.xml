@@ -20,22 +20,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baba9261-e7df-4843-81d4-1b943c101a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/igrovoy-effektyi-zvonkiy-smachnyiy.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/igrovoy-effektyi-zvonkiy-smachnyiy.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/otkryit-novyiy-uroven.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/otkryit-novyiy-uroven.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/vlastnaya-muzyika-v-povelitelnom-tone-25173.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/vlastnaya-muzyika-v-povelitelnom-tone-25173.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/zvuk-byistrogo-vzmaha-mecha (1).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/zvuk-byistrogo-vzmaha-mecha (1).mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaActive.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaActive.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaAttack.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/NinjaAttack.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Ninja_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Ninja_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies/photo_5352683961819714216_y-PhotoRoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies/photo_5352683961819714216_y-PhotoRoom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/2209_w054_n005_169b_p1_169-PhotoRoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/2209_w054_n005_169b_p1_169-PhotoRoom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First-Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOff.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOff.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOn.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GameplayWindowOn.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/NinjaIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/NinjaIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/NinjaRun.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/NinjaRun.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Container.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/EndPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/EndPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/WaitPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ContainerMovePoint/WaitPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (10).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (10).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (11).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (11).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (2).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (2).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (3).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (3).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (4).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (4).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (5).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (5).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (6).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (6).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (7).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (7).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (8).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (8).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (9).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point (9).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MoveItemsPoints/Point.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SO/Levels/Level_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/PlayerCoins.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/PlayerCoins.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/HealthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/HealthManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelUnlocking.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/TimerInLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singletone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Singletone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singletone.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Singletone.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/7ebc2efa-4947-4cab-9795-92b5272bcff2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/7ebc2efa-4947-4cab-9795-92b5272bcff2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/9c8db743-04e0-4cfc-ac1a-7f14b6dd275c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/9c8db743-04e0-4cfc-ac1a-7f14b6dd275c.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Chinese Themed slot backround, Slotopaint GameDesign.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Chinese Themed slot backround, Slotopaint GameDesign.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Kung Fu Hall, Hayden Zammit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Kung Fu Hall, Hayden Zammit.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Mountain Temple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Mountain Temple.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/e5ac6c13-c5e3-470c-9c47-88b598a3f1de.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/e5ac6c13-c5e3-470c-9c47-88b598a3f1de.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (1).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (3).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (4).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Без названия (6).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Idle/SNinja_nosword_idle 6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/Run/SNinja_nosword_run 11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/SNinja_nosword_crouch 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/SNinja_nosword_crouch 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/SNinja_nosword_crouch 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/SNinja_nosword_crouch 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/SNinja_nosword_crouch 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Containers/Ninja/SNinja_nosword_crouch 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ninja_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ninja_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/2207_w032_n002_571b_p1_571-PhotoRoom.png-PhotoRoom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Free-Buttons-2D-Game-Objects3-PhotoRoom.png-PhotoRoom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/MasterNinja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/MasterNinja.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/sign posts game asset-PhotoRoom-PhotoRoom (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/sign posts game asset-PhotoRoom-PhotoRoom (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/sign posts game asset-PhotoRoom-PhotoRoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/sign posts game asset-PhotoRoom-PhotoRoom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (10).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (11).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Без названия (9)-PhotoRoom (11).png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +171,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/First-Project-5a5bf6ecdb13cfbbf5c320137259c6b77e8bf384/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -60,7 +184,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/CounterStarsOnLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/StarsCounterOnGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/TimerInLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/AllStarsOfGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelScoreManager.cs" />
@@ -76,26 +199,30 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShopSystem/ShopManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/PlayerCoins.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsMovements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinsSystem/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/HealthManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/HealthManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PauseManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Tutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelCompletingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsSystem/ItemsSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/ItemCollect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToEndPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMoveToWaitPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContainersSystem/ContainerMovements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Singletone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectionSystem/CollectionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelDataSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/Levels/LevelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelsSystem/LevelsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -173,6 +300,7 @@
       <workItem from="1699178440141" duration="3721000" />
       <workItem from="1699199454605" duration="3380000" />
       <workItem from="1699208395648" duration="9239000" />
+      <workItem from="1699290369947" duration="12601000" />
     </task>
     <servers />
   </component>
@@ -214,9 +342,9 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="297" y="149" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1698941966834" />
-    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1697967749326">
+    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1699300285371">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1697967749326" />
+    <state x="303" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1699300285371" />
   </component>
 </project>
