@@ -34,6 +34,10 @@ namespace LevelsSystem
         
         [SerializeField] private int completedLevelsNumbers;
         public int CompletedLevelsNumbers => completedLevelsNumbers;
+        
+        [Header("EnemyProperties")]
+        [SerializeField] private Animator enemyAnimator;
+        public Animator EnemyAnimator => enemyAnimator;
 
         private void Start()
         {

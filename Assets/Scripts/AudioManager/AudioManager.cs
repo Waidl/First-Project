@@ -25,7 +25,7 @@ namespace AudioManager
 
         private void Start()
         {
-            Instance.Play(GameConfig.GameplaySound);
+            Instance.Play(GameConfig.ThemeSound);
         }
 
         private void Initialize()

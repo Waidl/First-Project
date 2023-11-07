@@ -15,5 +15,5 @@ MonoBehaviour:
   levelAvatarImage: {fileID: -259023278, guid: 6c177b8411cc52f4195a10a42dc21975, type: 3}
   levelNumber: 2
   maxItemsToSpawn: 2
-  timeOnLevel: 6
+  timeOnLevel: 12
   coinsForLevel: 10

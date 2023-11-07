@@ -1,5 +1,6 @@
-using System;
+using Common;
 using ItemsSystem.Items;
+using LevelsSystem;
 using UnityEngine;
 
 namespace ContainersSystem
@@ -19,7 +20,6 @@ namespace ContainersSystem
         private void Start()
         {
             attack = false;
-            speed = 4;
         }
 
         private void Update()
@@ -42,8 +42,10 @@ namespace ContainersSystem
             {
                 Destroy(gameObject);
                 
+                AudioManager.AudioManager.Instance.Play(GameConfig.DamageSound);
                 ContainerSpawner.Instance.ContainersDataList.Remove(gameObject.GetComponent<ItemView>());
                 ContainerSpawner.Instance.IncreaseCounter();
+                LevelsManager.Instance.EnemyAnimator.SetTrigger("EnemyDamage");
             }
         }
         
@@ -51,7 +53,6 @@ namespace ContainersSystem
         {
             container.SetTrigger("ItemOff");
             attack = true;
-            speed = 6;
         }
         
         private void MoveToItem()

@@ -73,7 +73,6 @@ namespace CollectionSystem
             if (items[0].transform.position == items[1].transform.position)
             {
                 AudioManager.AudioManager.Instance.Play(GameConfig.CollectedSound);
-
                 items[1].GetComponent<ContainerMoveToWaitPoint>().OnAttack();
 
                 Destroy(items[0]);

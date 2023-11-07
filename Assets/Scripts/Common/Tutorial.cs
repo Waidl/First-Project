@@ -9,6 +9,7 @@ namespace Common
     {
         [SerializeField] private Animator tutorial;
         [SerializeField] private Animator gameplayWindow;
+        [SerializeField] private Animator enemy;
         
         public void OnTutorial()
         {
@@ -20,6 +21,7 @@ namespace Common
             else
             {
                 gameplayWindow.SetTrigger("GameWindowOn");
+                enemy.SetTrigger("EnemyOn");
                 LevelsManager.Instance.StartGame();
             }
         }

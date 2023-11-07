@@ -87,7 +87,7 @@ namespace LevelsSystem
             
             timerInLevel.TimerActivation = false;
             
-            AudioManager.AudioManager.Instance.Play(GameConfig.EndLevelSound);
+            AudioManager.AudioManager.Instance.Play(GameConfig.CompletedLevelSound);
             
             LevelUnlocking.Instance.UnlockingLevel();
             
@@ -101,6 +101,7 @@ namespace LevelsSystem
 
             LevelsManager.Instance.LevelCompletedWindow.SetTrigger("CompletedLevelWindowOn");
             LevelsManager.Instance.GameplayWindow.SetTrigger("GameWindowOff");
+            LevelsManager.Instance.EnemyAnimator.SetTrigger("EnemyOff");
         }
     }
 }
